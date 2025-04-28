@@ -59,26 +59,27 @@ We are ready to answer your questions and create custom solutions for your busin
                         </ul>
                     </div>
                     <div class="contact-wrap has_fade_anim" data-delay="0.30">
-                        <form action="#">
+                        <form action="{{ route('contactAction') }}">
                             <div class="contact-formwrap">
                                 <div class="contact-formfield">
-                                    <input type="text" name="Name" id="Name" placeholder="Name*">
+                                    <input type="text" name="Name" id="name" placeholder="Name*">
                                 </div>
                                 <div class="contact-formfield">
-                                    <input type="text" name="Email" id="Email" placeholder="Email*">
+                                    <input type="text" name="Email" id="email" placeholder="Email*">
                                 </div>
                                 <div class="contact-formfield">
-                                    <input type="text" name="Phone" id="Phone" placeholder="Phone">
+                                    <input type="text" name="Phone" id="phone" placeholder="Phone">
                                 </div>
                                 <div class="contact-formfield">
-                                    <input type="text" name="Subject" id="Subject" placeholder="Subject*">
+                                    <input type="text" name="Subject" id="subject" placeholder="Subject*">
                                 </div>
                                 <div class="contact-formfield messages">
-                                    <input type="text" name="Messages" id="Messages" placeholder="Messages*">
+                                    <input type="text" name="Messages" id="message" placeholder="Message*">
                                 </div>
                             </div>
+                            <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback="enableSubmitButtonContact"></div>
                             <div class="submit-btn">
-                                <button type="submit" class="wc-btn wc-btn-primary btn-text-flip"><span
+                                <button type="submit" id='submitButton' class="wc-btn wc-btn-primary btn-text-flip" disabled><span
                                         data-text="Send Message">Send Message</span></button>
                             </div>
                         </form>
@@ -88,4 +89,10 @@ We are ready to answer your questions and create custom solutions for your busin
         </div>
     </section>
     <!-- contact area end  -->
+    <script>
+        function enableSubmitButtonContact() {
+            document.getElementById('submitButton').disabled = false;
+            document.getElementById('submitButton').setAttribute('class', 'btn-main');
+        }
+    </script>
 @endsection

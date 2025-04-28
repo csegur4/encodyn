@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SitemapController;
+use App\Http\Controllers\EmailController;
 
 Route::get('/', function () {
     return view('home');
@@ -44,4 +45,5 @@ Route::get('/terms-and-conditions', function () {
 })->name('terms-and-conditions');
 
 Route::get('/sitemap.xml', [SitemapController::class, 'index']);
+Route::post('/contact-us', [EmailController::class, 'contact'])->name('contactAction');
 

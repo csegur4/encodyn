@@ -49,7 +49,7 @@ class EmailController extends Controller
         $client = new Client();
         $response = $client->post('https://www.google.com/recaptcha/api/siteverify', [
             'form_params' => [
-                'secret' => config('services.recaptcha.secret_key'),
+                'secret' => env('RECAPTCHA_SECRET_KEY'),
                 'response' => $recaptchaResponse,
                 'remoteip' => request()->ip(),
             ],
