@@ -245,6 +245,7 @@
 <script src="{{ asset('js/main.js') }}"></script>
 <script src="{{ asset('js/error-handling.js') }}"></script>
 <script src="{{ asset('js/offcanvas.js') }}"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 @stack('page_scripts')
 
 <script>
