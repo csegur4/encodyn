@@ -80,7 +80,7 @@ We are ready to answer your questions and create custom solutions for your busin
                             </div>
                             <div class="g-recaptcha pt" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback="enableSubmitButtonContact"></div>
                             <div class="submit-btn">
-                                <button type="submit" id='submitButton' class="wc-btn wc-btn-primary btn-text-flip" ><span
+                                <button type="submit" id='submitButton' class="wc-btn wc-btn-primary btn-text-flip" disabled><span
                                         data-text="Send Message">Send Message</span></button>
                             </div>
                         </form>
