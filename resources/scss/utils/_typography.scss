@@ -1,0 +1,348 @@
+/*----------------------------------------*/
+/*  01. TYPOGRAPHY CSS START
+/*----------------------------------------*/
+
+
+// ----------------------------
+// Font Family
+// ---------------------------
+
+// kanit
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Archivo-Thin';
+    src: url('../fonts/Archivo-Thin.woff2') format('woff2'),
+    url('../fonts/Archivo-Thin.woff') format('woff'),
+    url('../fonts/Archivo-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Archivo-ThinItalic';
+    src: url('../fonts/Archivo-ThinItalic.woff2') format('woff2'),
+    url('../fonts/Archivo-ThinItalic.woff') format('woff'),
+    url('../fonts/Archivo-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Archivo-ExtraLight';
+    src: url('../fonts/Archivo-ExtraLight.woff2') format('woff2'),
+    url('../fonts/Archivo-ExtraLight.woff') format('woff'),
+    url('../fonts/Archivo-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Archivo-ExtraLightItalic';
+    src: url('../fonts/Archivo-ExtraLightItalic.woff2') format('woff2'),
+    url('../fonts/Archivo-ExtraLightItalic.woff') format('woff'),
+    url('../fonts/Archivo-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Archivo-Light';
+    src: url('../fonts/Archivo-Light.woff2') format('woff2'),
+    url('../fonts/Archivo-Light.woff') format('woff'),
+    url('../fonts/Archivo-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Archivo-LightItalic';
+    src: url('../fonts/Archivo-LightItalic.woff2') format('woff2'),
+    url('../fonts/Archivo-LightItalic.woff') format('woff'),
+    url('../fonts/Archivo-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Archivo-Regular';
+    src: url('../fonts/Archivo-Regular.woff2') format('woff2'),
+    url('../fonts/Archivo-Regular.woff') format('woff'),
+    url('../fonts/Archivo-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Archivo-Italic';
+    src: url('../fonts/Archivo-Italic.woff2') format('woff2'),
+    url('../fonts/Archivo-Italic.woff') format('woff'),
+    url('../fonts/Archivo-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Archivo-Medium';
+    src: url('../fonts/Archivo-Medium.woff2') format('woff2'),
+    url('../fonts/Archivo-Medium.woff') format('woff'),
+    url('../fonts/Archivo-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Archivo-MediumItalic';
+    src: url('../fonts/Archivo-MediumItalic.woff2') format('woff2'),
+    url('../fonts/Archivo-MediumItalic.woff') format('woff'),
+    url('../fonts/Archivo-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Archivo-SemiBold';
+    src: url('../fonts/Archivo-SemiBold.woff2') format('woff2'),
+    url('../fonts/Archivo-SemiBold.woff') format('woff'),
+    url('../fonts/Archivo-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Archivo-SemiBoldItalic';
+    src: url('../fonts/Archivo-SemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/Archivo-SemiBoldItalic.woff') format('woff'),
+    url('../fonts/Archivo-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Archivo-Bold';
+    src: url('../fonts/Archivo-Bold.woff2') format('woff2'),
+    url('../fonts/Archivo-Bold.woff') format('woff'),
+    url('../fonts/Archivo-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Archivo-BoldItalic';
+    src: url('../fonts/Archivo-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Archivo-BoldItalic.woff') format('woff'),
+    url('../fonts/Archivo-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Archivo-ExtraBold';
+    src: url('../fonts/Archivo-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Archivo-ExtraBold.woff') format('woff'),
+    url('../fonts/Archivo-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Archivo-ExtraBoldItalic';
+    src: url('../fonts/Archivo-ExtraBoldItalic.woff2') format('woff2'),
+    url('../fonts/Archivo-ExtraBoldItalic.woff') format('woff'),
+    url('../fonts/Archivo-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Archivo-Black';
+    src: url('../fonts/Archivo-Black.woff2') format('woff2'),
+    url('../fonts/Archivo-Black.woff') format('woff'),
+    url('../fonts/Archivo-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Archivo-BlackItalic';
+    src: url('../fonts/Archivo-BlackItalic.woff2') format('woff2'),
+    url('../fonts/Archivo-BlackItalic.woff') format('woff'),
+    url('../fonts/Archivo-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: italic;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 600.0;
+*
+* available axes:
+'wght' (range from 100.0 to 900.0
+*/
+@font-face {
+    font-family: 'Archivo-Variable';
+    src: url('../fonts/Archivo-Variable.woff2') format('woff2'),
+    url('../fonts/Archivo-Variable.woff') format('woff'),
+    url('../fonts/Archivo-Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 600.0;
+*
+* available axes:
+'wght' (range from 100.0 to 900.0
+*/
+@font-face {
+    font-family: 'Archivo-VariableItalic';
+    src: url('../fonts/Archivo-VariableItalic.woff2') format('woff2'),
+    url('../fonts/Archivo-VariableItalic.woff') format('woff'),
+    url('../fonts/Archivo-VariableItalic.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+}
+
+:root {
+  --font_kanit: "Archivo-Light", sans-serif;
+  --font_awesome: 'Font Awesome 6 Free';
+}
+
+// Defalut Style
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font_kanit);
+  line-height: 1;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  color: var(--primary);
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: inherit;
+
+  &:hover {
+    color: var(--primary);
+  }
+
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 1.41;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--secondary);
+
+
+}
+
+strong {
+  font-weight: 500;
+}
+
+video,
+iframe,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.medium {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+// No Gutter
+@media #{$sm} {
+  .g-0 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .row.g-0 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+main {
+  display: inline-block;
+  width: 100%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
