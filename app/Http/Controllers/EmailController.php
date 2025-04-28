@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\EmailService;
+use App\Services\EmailService;
 use GuzzleHttp\Client;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
