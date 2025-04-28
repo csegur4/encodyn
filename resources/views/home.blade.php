@@ -39,7 +39,7 @@ digital transformation, business growth, technology solutions, software engineer
 <!-- hero area start  -->
 <section class="hero-area section-item">
     <div class="area-bg">
-        <img src="{{ asset('imgs/encodyn-main-header.webp')}}" alt="image">
+        <img src="{{ asset('imgs/encodyn-main-header.webp')}}" alt="Encodyn digital solutions showcase featuring custom software development and web design services">
     </div>
     <div class="container large">
         <div class="hero-area-inner">
@@ -52,13 +52,6 @@ digital transformation, business growth, technology solutions, software engineer
                         </h1>
                     </div>
                 </div>
-                {{--<div class="video-wrapper has_fade_anim" data-ease="power3.out">
-                    <div class="thumb p-relative">
-                        <img src="{{ asset('imgs/gallery/img-s-32.webp')}}" alt="image">
-                        <a href="https://crowdytheme.com/assets/wp-content/uploads/2024/06/arolux-branding-agency-video.mp4"
-                           class="wc-btn wc-btn-circle video-popup pos-center"><i class="fa-solid fa-play"></i></a>
-                    </div>
-                </div>--}}
             </div>
         </div>
         <div class="about-area">
@@ -110,7 +103,7 @@ digital transformation, business growth, technology solutions, software engineer
                             <div class="service-box">
                                 <div class="icon">
                                     <img src="{{ asset('imgs/services/software-development-api-icon.svg')}}"
-                                         alt="Software development icon depicting custom software solutions">
+                                         alt="Custom software development and API integration services icon">
                                 </div>
                                 <div class="content">
                                     <h3 class="title">Software Development </h3>
@@ -125,7 +118,7 @@ digital transformation, business growth, technology solutions, software engineer
                             <div class="service-box">
                                 <div class="icon">
                                     <img src="{{ asset('imgs/services/web-design-icon.svg')}}"
-                                         alt="Web design icon representing modern website creation">
+                                         alt="Responsive web design and development services icon">
                                 </div>
                                 <div class="content">
                                     <h3 class="title">Web Design</h3>
@@ -140,7 +133,7 @@ digital transformation, business growth, technology solutions, software engineer
                             <div class="service-box">
                                 <div class="icon">
                                     <img src="{{ asset('imgs/services/seo-optimization-icon.svg')}}"
-                                         alt="SEO optimization icon illustrating search engine ranking improvement">
+                                         alt="SEO optimization and search ranking improvement services icon">
                                 </div>
                                 <div class="content">
                                     <h3 class="title">SEO Optimization</h3>
@@ -155,7 +148,7 @@ digital transformation, business growth, technology solutions, software engineer
                             <div class="service-box">
                                 <div class="icon">
                                     <img src="{{ asset('imgs/services/branding-icon.svg')}}"
-                                         alt="Design icon showing brand identity creation">
+                                         alt="Brand identity design and visual communication services icon">
                                 </div>
                                 <div class="content">
                                     <h3 class="title">Brand Design</h3>
@@ -192,14 +185,14 @@ digital transformation, business growth, technology solutions, software engineer
                 <div class="content-last">
                     <div class="link-meta has_fade_anim" data-fade-from="left">
                         <div class="profile-item">
-                            <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="icon"><i class="fa-brands fa-linkedin-in" aria-label="Encodyn LinkedIn profile"></i></div>
                             <div class="">
                                 <span class="meta-title">Follow</span>
                                 <h2 class="name">LinkedIn</h2>
                             </div>
                         </div>
                         <div class="profile-item">
-                            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="icon"><i class="fa-brands fa-instagram" aria-label="Encodyn Instagram profile"></i></div>
                             <div class="">
                                 <span class="meta-title">Follow</span>
                                 <h2 class="name">Instagram</h2>
@@ -212,8 +205,9 @@ digital transformation, business growth, technology solutions, software engineer
                 <div class="works-wrapper">
                     <div class="work-box">
                         <div class="thumb">
-                            <a href="work-details.html">
-                                <img src="{{ asset('imgs/works/airq.webp')}}" alt="image">
+                            <a>
+                                <img src="{{ asset('imgs/works/airq.webp')}}"
+                                     alt="Air Q Contractors website design and Stripe integration project by Encodyn">
                             </a>
                         </div>
                         <div class="content">
@@ -226,8 +220,9 @@ digital transformation, business growth, technology solutions, software engineer
                     </div>
                     <div class="work-box">
                         <div class="thumb">
-                            <a href="work-details.html">
-                                <img src="{{ asset('imgs/works/consultoriomedico.webp')}}" alt="image">
+                            <a>
+                                <img src="{{ asset('imgs/works/consultoriomedico.webp')}}"
+                                     alt="Consultorio Medico Bellaire healthcare website with appointment scheduling integration">
                             </a>
                         </div>
                         <div class="content">
@@ -241,8 +236,9 @@ digital transformation, business growth, technology solutions, software engineer
                     </div>
                     <div class="work-box">
                         <div class="thumb">
-                            <a href="work-details.html">
-                                <img src="{{ asset('imgs/works/elitepharmacy.webp')}}" alt="image">
+                            <a>
+                                <img src="{{ asset('imgs/works/elitepharmacy.webp')}}"
+                                     alt="Elite Pharmacy responsive website design showcasing healthcare services">
                             </a>
                         </div>
                         <div class="content">
@@ -250,14 +246,14 @@ digital transformation, business growth, technology solutions, software engineer
                                 Pharmacy</h3>
                             <div class="tags">
                                 <div class="tag">Web Design</div>
-{{--                                <div class="tag">Business</div>--}}
                             </div>
                         </div>
                     </div>
                     <div class="work-box">
                         <div class="thumb">
-                            <a href="work-details.html">
-                                <img src="{{ asset('imgs/works/sanasana.webp')}}" alt="image">
+                            <a>
+                                <img src="{{ asset('imgs/works/sanasana.webp')}}"
+                                     alt="Sana Sana brand identity design project by Encodyn">
                             </a>
                         </div>
                         <div class="content">
@@ -265,40 +261,9 @@ digital transformation, business growth, technology solutions, software engineer
                                 Sana</h3>
                             <div class="tags">
                                 <div class="tag">Branding</div>
-{{--                                <div class="tag">Business</div>--}}
                             </div>
                         </div>
                     </div>
-{{--                    <div class="work-box">--}}
-{{--                        <div class="thumb">--}}
-{{--                            <a href="work-details.html">--}}
-{{--                                <img src="{{ asset('imgs/works/img-s-35.webp')}}" alt="image">--}}
-{{--                            </a>--}}
-{{--                        </div>--}}
-{{--                        <div class="content">--}}
-{{--                            <h3 class="title">Colyfate Font <br>--}}
-{{--                                Design</h3>--}}
-{{--                            <div class="tags">--}}
-{{--                                <div class="tag">Branding</div>--}}
-{{--                                <div class="tag">Business</div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="work-box">--}}
-{{--                        <div class="thumb">--}}
-{{--                            <a href="work-details.html">--}}
-{{--                                <img src="{{ asset('imgs/works/img-s-36.webp')}}" alt="image">--}}
-{{--                            </a>--}}
-{{--                        </div>--}}
-{{--                        <div class="content">--}}
-{{--                            <h3 class="title">Watch Mockup <br>--}}
-{{--                                Design</h3>--}}
-{{--                            <div class="tags">--}}
-{{--                                <div class="tag">Branding</div>--}}
-{{--                                <div class="tag">Business</div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
                 </div>
             </div>
             <div class="section-content section-spacing-top">
@@ -321,151 +286,16 @@ digital transformation, business growth, technology solutions, software engineer
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
 <!-- work area end  -->
 
-<!-- fun-fact area start  -->
-{{--<section class="fun-fact-area section-style section-item">
-    <div class="container large">
-        <div class="fun-fact-area-inner section-spacing">
-            <div class="section-header">
-                <div class="section-title-wrapper">
-                    <div class="title-wrapper">
-                        <h2 class="section-title has_fade_anim">Designing great products
-                            is so hard. But we've done
-                            more than 150 of them in
-                            this year.</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="counter-wrapper-box">
-                <div class="counter-box overflow-hidden">
-                    <img class="shape-1 show-light img_anim_reveal" src="{{ asset('imgs/shape/img-s-47.webp')}}" alt="image">
-                    <img class="shape-1 show-dark img_anim_reveal" src="{{ asset('imgs/shape/img-s-47-light.webp')}}"
-                         alt="image">
-                    <h3 class="number wc-counter has_fade_anim" data-fade-from="left">150</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>--}}
-<!-- fun-fact area end  -->
-
-<!-- process area start  -->
-{{--<section class="process-area section-style section-item">--}}
-{{--    <div class="container large">--}}
-{{--        <div class="process-area-inner section-spacing">--}}
-{{--            <div class="shape-1">--}}
-
-{{--                <img class="show-light" src="{{ asset('imgs/shape/img-s-48.webp')}}" alt="image">--}}
-{{--                <img class="show-dark" src="{{ asset('imgs/shape/img-s-48-light.webp')}}" alt="image">--}}
-{{--            </div>--}}
-{{--            <div class="section-header">--}}
-{{--                <div class="section-title-wrapper">--}}
-{{--                    <div class="title-wrapper">--}}
-{{--                        <h2 class="section-title has_fade_anim">Our standard--}}
-{{--                            design thinking--}}
-{{--                            process</h2>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="process-wrapper-box">--}}
-{{--                <div class="process-wrapper">--}}
-{{--                    <div class="swiper process-slider">--}}
-{{--                        <div class="swiper-wrapper">--}}
-{{--                            <div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.15">--}}
-{{--                                <div class="process-box">--}}
-{{--                                    <span class="number">Step - 01</span>--}}
-{{--                                    <div class="icon">--}}
-{{--                                        <img class="show-light" src="{{ asset('imgs/icon/icon-s-16-light.webp')}}" alt="process icon">--}}
-{{--                                        <img class="show-dark" src="{{ asset('assets/imgs/icon/icon-s-16.webp')}}"  alt="process icon">--}}
-{{--                                    </div>--}}
-{{--                                    <div class="content">--}}
-{{--                                        <h3 class="title">User <br>--}}
-{{--                                            Research</h3>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.30">--}}
-{{--                                <div class="process-box">--}}
-{{--                                    <span class="number">Step - 02</span>--}}
-{{--                                    <div class="icon">--}}
-{{--                                        <img class="show-light" src="{{ asset('imgs/icon/icon-s-17-light.webp')}}" alt="process icon">--}}
-{{--                                        <img class="show-dark" src="{{ asset('imgs/icon/icon-s-17.webp')}}" alt="process icon">--}}
-{{--                                    </div>--}}
-{{--                                    <div class="content">--}}
-{{--                                        <h3 class="title">Define <br>--}}
-{{--                                            Problems</h3>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.45">--}}
-{{--                                <div class="process-box">--}}
-{{--                                    <span class="number">Step - 03</span>--}}
-{{--                                    <div class="icon">--}}
-{{--                                        <img class="show-light" src="{{ asset('imgs/icon/icon-s-18-light.webp')}}" alt="process icon">--}}
-{{--                                        <img class="show-dark" src="{{ asset('imgs/icon/icon-s-18.webp')}}" alt="process icon">--}}
-{{--                                    </div>--}}
-{{--                                    <div class="content">--}}
-{{--                                        <h3 class="title">Design and <br>--}}
-{{--                                            Prototype </h3>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.60">--}}
-{{--                                <div class="process-box">--}}
-{{--                                    <span class="number">Step - 04</span>--}}
-{{--                                    <div class="icon">--}}
-{{--                                        <img class="show-light" src="{{ asset('imgs/icon/icon-s-19-light.webp')}}" alt="process icon">--}}
-{{--                                        <img class="show-dark" src="{{ asset('imgs/icon/icon-s-19.webp')}}" alt="process icon">--}}
-{{--                                    </div>--}}
-{{--                                    <div class="content">--}}
-{{--                                        <h3 class="title">Evaluation & <br>--}}
-{{--                                            Testing</h3>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            --}}{{--<div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.75">--}}
-{{--                                <div class="process-box">--}}
-{{--                                    <span class="number">Step - 05</span>--}}
-{{--                                    <div class="icon">--}}
-{{--                                        <img class="show-light" src="assets/imgs/icon/icon-s-17-light.webp" alt="process icon">--}}
-{{--                                        <img class="show-dark" src="assets/imgs/icon/icon-s-17.webp" alt="process icon">--}}
-{{--                                    </div>--}}
-{{--                                    <div class="content">--}}
-{{--                                        <h3 class="title">Define <br>--}}
-{{--                                            Problems</h3>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.90">--}}
-{{--                                <div class="process-box">--}}
-{{--                                    <span class="number">Step - 06</span>--}}
-{{--                                    <div class="icon">--}}
-{{--                                        <img class="show-light" src="assets/imgs/icon/icon-s-18-light.webp" alt="process icon">--}}
-{{--                                        <img class="show-dark" src="assets/imgs/icon/icon-s-18.webp" alt="process icon">--}}
-{{--                                    </div>--}}
-{{--                                    <div class="content">--}}
-{{--                                        <h3 class="title">Design and <br>--}}
-{{--                                            Prototype </h3>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</section>--}}
-<!-- process area end  -->
-
 <div class="image-wrapper section-style pb-0 overflow-hidden">
-{{--    <img class="w-100" src="{{ asset('imgs/gallery/img-s-34.webp')}}" data-speed=".8" alt="image">--}}
-    <video class="w-100" src="{{ asset('imgs/software.mp4')}}" autoplay loop muted></video>
+    <video class="w-100" src="{{ asset('imgs/software.mp4')}}"
+           autoplay loop muted
+           aria-label="Software development process visualization by Encodyn">
+    </video>
 </div>
 
 <!-- testimonial area start  -->
@@ -485,11 +315,11 @@ digital transformation, business growth, technology solutions, software engineer
                 <div class="info-box">
                     <h3 class="rating">5</h3>
                     <div class="rating-icons">
-                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="icon">
-                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="icon">
-                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="icon">
-                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="icon">
-                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="icon">
+                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
+                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
+                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
+                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
+                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
                     </div>
                     <p class="reviews">(5+ reviews)</p>
                     <p class="text">Helping world-class
@@ -504,7 +334,8 @@ digital transformation, business growth, technology solutions, software engineer
                                     <div class="content">
                                         <div class="content-top">
                                             <div class="icon">
-                                                <img class="quote-icon" src="{{ asset('imgs/icon/quote-6.webp')}}" alt="Quote Icon">
+                                                <img class="quote-icon" src="{{ asset('imgs/icon/quote-6.webp')}}"
+                                                     alt="Testimonial quote icon for client feedback">
                                             </div>
                                             <div class="text-wrapper">
                                                 <p class="text">As a startup that moves quickly and often, they have been able to roll
@@ -550,10 +381,10 @@ digital transformation, business growth, technology solutions, software engineer
                 </div>
                 <div class="slider-nav">
                     <div class="testimonial-button-prev nav-icon">
-                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-left" aria-label="Previous testimonial"></i>
                     </div>
                     <div class="testimonial-button-next nav-icon">
-                        <i class="fa-solid fa-arrow-right"></i>
+                        <i class="fa-solid fa-arrow-right" aria-label="Next testimonial"></i>
                     </div>
                 </div>
             </div>
@@ -562,229 +393,6 @@ digital transformation, business growth, technology solutions, software engineer
 </div>
 <!-- testimonial area end  -->
 </div>
-<!-- team area start  -->
-{{--<section class="team-area section-style section-item">--}}
-{{--    <div class="container large">--}}
-{{--        <div class="team-area-inner section-spacing">--}}
-{{--            <div class="section-header">--}}
-{{--                <div class="section-title-wrapper">--}}
-{{--                    <div class="title-wrapper">--}}
-{{--                        <h2 class="section-title has_fade_anim">The talented team--}}
-{{--                            behind the creative--}}
-{{--                            design</h2>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="text-wrapper">--}}
-{{--                    <p class="text has_fade_anim">Our dedication and commitment to excellence ensure that your business--}}
-{{--                        thrives in the--}}
-{{--                        ever-evolving digital realm.</p>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="team-wrapper-box">--}}
-{{--                <div class="team-wrapper">--}}
-{{--                    <div class="team-box">--}}
-{{--                        <div class="thumb">--}}
-{{--                            <a href="team-details.html"><img src="assets/imgs/team/img-s-15.webp" alt="team image"></a>--}}
-{{--                        </div>--}}
-{{--                        <div class="content">--}}
-{{--                            <div class="top">--}}
-{{--                                <h3 class="name"><a href="team-details.html">Kamal Abraham</a></h3>--}}
-{{--                                <p class="post">CEO, Alaska</p>--}}
-{{--                            </div>--}}
-{{--                            <div class="wc-btn-group">--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-linkedin-in"></i>--}}
-{{--                                </a>--}}
-{{--                                <a class="wc-btn wc-btn-primary" href="#">LinkedIn</a>--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-linkedin-in"></i>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="team-box">--}}
-{{--                        <div class="thumb">--}}
-{{--                            <a href="team-details.html"><img src="assets/imgs/team/img-s-16.webp" alt="team image"></a>--}}
-{{--                        </div>--}}
-{{--                        <div class="content">--}}
-{{--                            <div class="top">--}}
-{{--                                <h3 class="name"><a href="team-details.html">Selina Gomaze</a></h3>--}}
-{{--                                <p class="post">Jr. Executive</p>--}}
-{{--                            </div>--}}
-{{--                            <div class="wc-btn-group">--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-twitter"></i>--}}
-{{--                                </a>--}}
-{{--                                <a class="wc-btn wc-btn-primary" href="#">Twitter</a>--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-twitter"></i>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="team-box">--}}
-{{--                        <div class="thumb">--}}
-{{--                            <a href="team-details.html"><img src="assets/imgs/team/img-s-17.webp" alt="team image"></a>--}}
-{{--                        </div>--}}
-{{--                        <div class="content">--}}
-{{--                            <div class="top">--}}
-{{--                                <h3 class="name"><a href="team-details.html">Pedrik Vadra</a></h3>--}}
-{{--                                <p class="post">Logo Designer</p>--}}
-{{--                            </div>--}}
-{{--                            <div class="wc-btn-group">--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-linkedin-in"></i>--}}
-{{--                                </a>--}}
-{{--                                <a class="wc-btn wc-btn-primary" href="#">LinkedIn</a>--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-linkedin-in"></i>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="team-box">--}}
-{{--                        <div class="thumb">--}}
-{{--                            <a href="team-details.html"><img src="assets/imgs/team/img-s-18.webp" alt="team image"></a>--}}
-{{--                        </div>--}}
-{{--                        <div class="content">--}}
-{{--                            <div class="top">--}}
-{{--                                <h3 class="name"><a href="team-details.html">Thomas Ribbon</a></h3>--}}
-{{--                                <p class="post">Sr. Designer</p>--}}
-{{--                            </div>--}}
-{{--                            <div class="wc-btn-group">--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-twitter"></i>--}}
-{{--                                </a>--}}
-{{--                                <a class="wc-btn wc-btn-primary" href="#">Twitter</a>--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-twitter"></i>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="team-box">--}}
-{{--                        <div class="thumb">--}}
-{{--                            <a href="team-details.html"><img src="assets/imgs/team/img-s-19.webp" alt="team image"></a>--}}
-{{--                        </div>--}}
-{{--                        <div class="content">--}}
-{{--                            <div class="top">--}}
-{{--                                <h3 class="name"><a href="team-details.html">Jonathon Deo</a></h3>--}}
-{{--                                <p class="post">Designer</p>--}}
-{{--                            </div>--}}
-{{--                            <div class="wc-btn-group">--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-linkedin-in"></i>--}}
-{{--                                </a>--}}
-{{--                                <a class="wc-btn wc-btn-primary" href="#">LinkedIn</a>--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-linkedin-in"></i>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="team-box">--}}
-{{--                        <div class="thumb">--}}
-{{--                            <a href="team-details.html"><img src="assets/imgs/team/img-s-20.webp" alt="team image"></a>--}}
-{{--                        </div>--}}
-{{--                        <div class="content">--}}
-{{--                            <div class="top">--}}
-{{--                                <h3 class="name"><a href="team-details.html">Angel D. Mariya</a></h3>--}}
-{{--                                <p class="post">Jr. Designer</p>--}}
-{{--                            </div>--}}
-{{--                            <div class="wc-btn-group">--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-twitter"></i>--}}
-{{--                                </a>--}}
-{{--                                <a class="wc-btn wc-btn-primary" href="#">Twitter</a>--}}
-{{--                                <a class="wc-btn wc-btn-circle" href="#">--}}
-{{--                                    <i class="fa-brands fa-twitter"></i>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</section>--}}
-<!-- team area end  -->
-
-<!-- blog area start  -->
-{{--<section class="blog-area section-style section-item">
-    <div class="container large">
-        <div class="blog-area-inner section-spacing">
-            <div class="section-header">
-                <div class="section-title-wrapper">
-                    <div class="title-wrapper">
-                        <h2 class="section-title has_fade_anim">Journal from
-                            arolax</h2>
-                    </div>
-                </div>
-                <div class="btn-wrapper has_fade_anim" data-fade-from="right">
-                    <div class="wc-btn-group">
-                        <a class="wc-btn wc-btn-circle" href="blog.html">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a class="wc-btn wc-btn-primary" href="blog.html">read all posts</a>
-                        <a class="wc-btn wc-btn-circle" href="blog.html">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="blogs-wrapper-box">
-                <div class="blogs-wrapper">
-                    <article class="blog has_fade_anim" data-fade-from="right" data-delay="0.15">
-                        <div class="thumb">
-                            <a href="blog-details.html">
-                                <img src="assets/imgs/blog/img-s-8.webp" alt="blog image">
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h2 class="title"><a href="blog-details.html">A simple guide to retrieval auto generated read
-                                    content models</a></h2>
-                            <div class="meta-list">
-                                <a href="#"><span class="meta tag">Branding</span></a>
-                                <span class="meta date">14 Jan 2024</span>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="blog has_fade_anim" data-fade-from="right" data-delay="0.30">
-                        <div class="thumb">
-                            <a href="blog-details.html">
-                                <img src="assets/imgs/blog/img-s-9.webp" alt="blog image">
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h2 class="title"><a href="blog-details.html">The complex but awesome CSS border-image property
-                                    for web design</a></h2>
-                            <div class="meta-list">
-                                <a href="#"><span class="meta tag">Branding</span></a>
-                                <span class="meta date">14 Jan 2024</span>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="blog has_fade_anim" data-fade-from="left" data-delay="0.45">
-                        <div class="thumb">
-                            <a href="blog-details.html">
-                                <img src="assets/imgs/blog/img-s-10.webp" alt="blog image">
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h2 class="title"><a href="blog-details.html">Refining your mobile on boarding experience using
-                                    visual analytics</a></h2>
-                            <div class="meta-list">
-                                <a href="#"><span class="meta tag">Branding</span></a>
-                                <span class="meta date">14 Jan 2024</span>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>--}}
-<!-- blog area end  -->
 
 <!-- cta area start  -->
 <section class="cta-area section-style section-item">

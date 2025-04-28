@@ -36,17 +36,10 @@ Our brand design services create visual systems that build recognition and custo
 <section class="service-details-area">
     <div class="container">
         <div class="thumb-main">
-            <img src="{{ asset('imgs/services/web-design-services.webp')}}" class="has_fade_anim" data-delay="0.30"
-                 data-fade-offset="0" alt="image">
-            <div class="hero-social">
-                <p class="title">Follow</p>
-                <div class="hero-social-links">
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-dribbble"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
+            <img src="{{ asset('imgs/services/brand-design-services.webp')}}" class="has_fade_anim" data-delay="0.30"
+                 data-fade-offset="0"
+                 alt="Strategic brand design process showcasing visual identity elements and creative brand development">
+            @include('components.social-media')
         </div>
         <div class="section-title-box">
             <div class="section-title-wrapper">
@@ -124,11 +117,13 @@ Our brand design services create visual systems that build recognition and custo
             </div>
             <div class="section-content">
                 <div class="shape has_fade_anim">
-                    <img class="show-light" src="{{ asset('imgs/shape/img-s-84.webp')}}" alt="shape">
+                    <img class="show-light" src="{{ asset('imgs/shape/img-s-84.webp')}}"
+                         alt="Decorative design element enhancing the brand design services section">
                 </div>
                 <div class="content-last">
                     <div class="thumb has_fade_anim">
-                        <img class="main-image" src="{{ asset('imgs/services/web-design-digital-presence.webp')}}" alt="image">
+                        <img class="main-image" src="{{ asset('imgs/services/brand-design-keywords.webp')}}"
+                             alt="Brand identity development visualization with typography, color systems, and logo design elements">
                     </div>
                     <div class="text-wrapper has_fade_anim">
                         <p class="text">Our brand design team creates distinctive visual identities that communicate
@@ -149,16 +144,14 @@ Our brand design services create visual systems that build recognition and custo
 </div>
 <!-- features area end  -->
 
-
-
 <!-- faq area start  -->
 <section class="faq-area">
     <div class="container">
         <div class="faq-area-inner section-spacing-top">
             <div class="section-content">
                 <div class="thumb">
-                    <img src="{{ asset('imgs/services/web-design-layers.webp')}}" class="has_fade_anim" data-fade-from="left"
-                         alt="image">
+                    <img src="{{ asset('imgs/services/table-work-logo-design.webp')}}" class="has_fade_anim" data-fade-from="left"
+                         alt="Designer's workspace showing brand identity development process with logo sketches and brand guidelines">
                 </div>
                 <div class="content-last has_fade_anim">
                     <div class="section-title-wrapper">
@@ -169,18 +162,6 @@ Our brand design services create visual systems that build recognition and custo
                     <div class="accordion-wrapper">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                            aria-controls="flush-collapseOne">Logo Design</button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">We create distinctive, versatile logos that embody your brand essence and stand the test of time. Our logo design process includes extensive research, concept development, and refinement to deliver marks that work effectively across all applications, from business cards to building signage, while conveying your brand's personality at a glance.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingTwo">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseTwo" aria-expanded="false"
@@ -189,6 +170,18 @@ Our brand design services create visual systems that build recognition and custo
                                 <div id="flush-collapseTwo" class="accordion-collapse collapse show"
                                      aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">We develop comprehensive visual systems that extend beyond your logo to create a cohesive brand experience. Our visual identity packages include primary and secondary logo variations, color palettes, typography hierarchies, image styles, graphic elements, and patterns that work together to create a distinctive and recognizable brand presence across all touchpoints.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                            aria-controls="flush-collapseOne">Logo Design</button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">We create distinctive, versatile logos that embody your brand essence and stand the test of time. Our logo design process includes extensive research, concept development, and refinement to deliver marks that work effectively across all applications, from business cards to building signage, while conveying your brand's personality at a glance.
                                     </div>
                                 </div>
                             </div>
@@ -237,233 +230,8 @@ Our brand design services create visual systems that build recognition and custo
 </section>
 <!-- faq area end  -->
 
-<!-- client area start  -->
-<div class="client-area has_fade_anim">
-    <div class="container">
-        <div class="client-area-inner section-spacing">
-            <div class="client-area-text">
-                <h2 class="text">We worked with largest
-                    global brands</h2>
-            </div>
-            <div class="clients-wrapper-box">
-                <div class="clients-wrapper">
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-1.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-1-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-2.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-2-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-3.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-3-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-4.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-4-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-5.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-5-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-6.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-6-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-7.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-7-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-8.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-8-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-9.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-9-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-10.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-10-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-11.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-11-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-12.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-12-light.webp" alt="client image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- client area end  -->
+@include('components.contact')
 
-<!-- contact area start  -->
-<section class="contact-area">
-    <div class="container">
-        <div class="contact-area-inner section-spacing">
-            <div class="shape-1">
-                <img src="{{ asset('imgs/shape/img-s-73.webp')}}" alt="shape">
-            </div>
-            <div class="section-content">
-                <div class="section-title-wrapper">
-                    <div class="title-wrapper">
-                        <h2 class="section-title has_fade_anim">Start your digital transformation with Encodyn</h2>
-                    </div>
-                </div>
-                <div class="btn-wrapper has_fade_anim">
-                    <a href="{{ route('contact') }}" class="wc-btn wc-btn-underline btn-text-flip"> <span
-                            data-text="Let's discuss your project">Let's discuss your project</span>
-                        <img src="{{ asset('imgs/icon/arrow-right-half-light.webp')}}" alt="icon image"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- contact area end  -->
+@include('components.clients')
 
-<!-- pricing area start  -->
-<section class="pricing-area">
-    <div class="container">
-        <div class="pricing-area-inner section-spacing">
-            <div class="section-header">
-                <div class="section-title-wrapper">
-                    <div class="title-wrapper">
-                        <h2 class="section-title has_fade_anim">Special offer! choose
-                            your pack today</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="pricing-wrapper-box">
-                <div class="pricing-wrapper">
-                    <div class="pricing-box has_fade_anim" data-delay="0.15">
-                        <span class="tag">Basic</span>
-                        <h3 class="price">$9.00</h3>
-                        <div class="feature-list">
-                            <ul>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Unlimited cards
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Automated management
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    SOX compliance
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Enterprise ERP integrations
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Limited tools
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Local video issuance
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="contact.html" class="wc-btn wc-btn-primary btn-text-flip bordered"> <span
-                                data-text="Learn More">Learn More</span></a>
-                    </div>
-                    <div class="pricing-box has_fade_anim" data-delay="0.30">
-                        <span class="tag">Standard</span>
-                        <h3 class="price">$29.00</h3>
-                        <div class="feature-list">
-                            <ul>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Unlimited cards
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Automated management
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    SOX compliance
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Enterprise ERP integrations
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Limited tools
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Local video issuance
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="contact.html" class="wc-btn wc-btn-primary btn-text-flip bordered"> <span
-                                data-text="Learn More">Learn More</span></a>
-                    </div>
-                    <div class="pricing-box has_fade_anim" data-delay="0.45">
-                        <span class="tag">Premium</span>
-                        <h3 class="price">$69.00</h3>
-                        <div class="feature-list">
-                            <ul>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Unlimited cards
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Automated management
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    SOX compliance
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Enterprise ERP integrations
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Unlimited tools
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Local video issuance
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="contact.html" class="wc-btn wc-btn-primary btn-text-flip bordered"> <span
-                                data-text="Learn More">Learn More</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- pricing area end  -->
 @endsection

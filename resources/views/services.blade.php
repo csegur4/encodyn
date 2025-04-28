@@ -60,56 +60,6 @@ Custom digital solutions for businesses seeking measurable growth and ROI.')
     </section>
     <!-- hero area end  -->
 
-    <!-- clients area start  -->
-    <div class="container-hd has_fade_anim">
-        <div class="clients-area">
-            <div class="container">
-                <div class="clients-area-inner">
-                    <div class="shape-1">
-                        <img src="{{ asset('imgs/shape/img-s-83.webp')}}"  alt="shape">
-                    </div>
-                    <div class="client-slider">
-                        <div class="swiper client-slider-active">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="client-box">
-                                        <img src="assets/imgs/brand/img-s-1-light.webp" alt="client image">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="client-box">
-                                        <img src="assets/imgs/brand/img-s-2-light.webp" alt="client image">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="client-box">
-                                        <img src="assets/imgs/brand/img-s-3-light.webp" alt="client image">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="client-box">
-                                        <img src="assets/imgs/brand/img-s-4-light.webp" alt="client image">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="client-box">
-                                        <img src="assets/imgs/brand/img-s-5-light.webp" alt="client image">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="client-box">
-                                        <img src="assets/imgs/brand/img-s-6-light.webp" alt="client image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- clients area end  -->
-
     <!-- service area start  -->
     <section class="service-area section-spacing">
         <div class="container">
@@ -361,92 +311,8 @@ Custom digital solutions for businesses seeking measurable growth and ROI.')
     </section>
     <!-- pricing area end  -->
 
-    <!-- contact area start  -->
-    <section class="contact-area">
-        <div class="container">
-            <div class="contact-area-inner section-spacing">
-                <div class="shape-1">
-                    <img src="{{ asset('imgs/shape/img-s-73.webp')}}" alt="shape">
-                </div>
-                <div class="section-content">
-                    <div class="section-title-wrapper">
-                        <div class="title-wrapper">
-                            <h2 class="section-title has_fade_anim">Start your digital transformation with Encodyn</h2>
-                        </div>
-                    </div>
-                    <div class="btn-wrapper has_fade_anim">
-                        <a href="{{ route('contact') }}" class="wc-btn wc-btn-underline btn-text-flip"> <span
-                                data-text="Let's discuss your project">Let's discuss your project</span>
-                            <img src="{{ asset('imgs/icon/arrow-right-half-light.webp')}}" alt="icon image"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- contact area end  -->
+    @include('components.contact')
 
-    <!-- client area start  -->
-    <div class="client-area has_fade_anim">
-        <div class="container">
-            <div class="client-area-inner section-spacing">
-                <div class="client-area-text">
-                    <h2 class="text">We worked with largest
-                        global brands</h2>
-                </div>
-                <div class="clients-wrapper-box">
-                    <div class="clients-wrapper">
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-1.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-1-light.webp" alt="client image">
-                        </div>
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-2.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-2-light.webp" alt="client image">
-                        </div>
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-3.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-3-light.webp" alt="client image">
-                        </div>
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-4.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-4-light.webp" alt="client image">
-                        </div>
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-5.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-5-light.webp" alt="client image">
-                        </div>
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-6.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-6-light.webp" alt="client image">
-                        </div>
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-7.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-7-light.webp" alt="client image">
-                        </div>
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-8.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-8-light.webp" alt="client image">
-                        </div>
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-9.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-9-light.webp" alt="client image">
-                        </div>
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-10.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-10-light.webp" alt="client image">
-                        </div>
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-11.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-11-light.webp" alt="client image">
-                        </div>
-                        <div class="client-box">
-                            <img class="show-light" src="assets/imgs/brand/img-s-12.webp" alt="client image">
-                            <img class="show-dark" src="assets/imgs/brand/img-s-12-light.webp" alt="client image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- client area end  -->
+    @include('components.clients')
+
 @endsection

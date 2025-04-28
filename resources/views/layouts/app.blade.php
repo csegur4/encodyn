@@ -94,19 +94,11 @@
             <nav class="nav-menu offcanvas-3__menu">
                 <ul>
                     <li><a href="{{ route('home') }}">home</a></li>
-                    <li><a href="{{ route('about') }}">about</a></li>
-                    <li><a href="services.html">services</a></li>
-                    <li><a href="service-details.html">service details</a></li>
-                    <li><a href="works.html">projects</a></li>
-                    <li><a href="work-details.html">project details</a></li>
-                    <li><a href="team.html">team</a></li>
-                    <li><a href="team-details.html">team details</a></li>
-                    <li><a href="career.html">career</a></li>
-                    <li><a href="career-details.html">career details</a></li>
-                    <li><a href="faq.html">faq</a></li>
-                    <li><a href="404.html">404 page</a></li>
-                    <li><a href="blog.html">blog</a></li>
-                    <li><a href="blog-details.html">blog details</a></li>
+                    <li><a href="{{ route('services') }}">services</a></li>
+                    <li><a href="{{ route('services.software-development') }}" class="mobile-submenu">Software Development</a></li>
+                    <li><a href="{{ route('services.web-design') }}" class="mobile-submenu">Web Design</a></li>
+                    <li><a href="{{ route('services.seo-optimization') }}" class="mobile-submenu">SEO Optimization</a></li>
+                    <li><a href="{{ route('services.brand-design') }}" class="mobile-submenu">Brand Design</a></li>
                     <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </nav>
@@ -181,7 +173,7 @@
                     <div class="footer-area-inner section-spacing-top">
                         <div class="footer-widget-wrapper">
                             <div class="footer-logo">
-                                <a href="#"><img src="{{ asset('imgs/encodyn-logo-white.svg') }}" alt="site-logo" style="width: 250px"></a>
+                                <a href="{{ route('home') }}"><img src="{{ asset('imgs/encodyn-logo-white.svg') }}" alt="site-logo" style="width: 250px"></a>
                             </div>
                         </div>
                         <div class="footer-widget-wrapper">
@@ -224,7 +216,6 @@
                 </div>
             </footer>
             <!-- footer area end  -->
-
         </div>
     </div>
 </div>

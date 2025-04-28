@@ -36,16 +36,9 @@ mobile applications, full-stack development, software engineering, enterprise so
     <div class="container">
         <div class="thumb-main">
             <img src="{{ asset('imgs/services/software-development-services.webp')}}" class="has_fade_anim" data-delay="0.30"
-                 data-fade-offset="0" alt="image">
-            <div class="hero-social">
-                <p class="title">Follow</p>
-                <div class="hero-social-links">
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-dribbble"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
+                 data-fade-offset="0"
+                 alt="Custom software development services showcasing code integration and business applications">
+            @include('components.social-media')
         </div>
         <div class="section-title-box">
             <div class="section-title-wrapper">
@@ -123,11 +116,13 @@ mobile applications, full-stack development, software engineering, enterprise so
             </div>
             <div class="section-content">
                 <div class="shape has_fade_anim">
-                    <img class="show-light" src="{{ asset('imgs/shape/img-s-84.webp')}}" alt="shape">
+                    <img class="show-light" src="{{ asset('imgs/shape/img-s-84.webp')}}"
+                         alt="Decorative geometric shape enhancing the software development services section">
                 </div>
                 <div class="content-last">
                     <div class="thumb has_fade_anim">
-                        <img class="main-image" src="{{ asset('imgs/services/connecting-lines.webp')}}" alt="image">
+                        <img class="main-image" src="{{ asset('imgs/services/connecting-lines.webp')}}"
+                             alt="Network of connecting lines representing API integration and system connectivity in software development">
                     </div>
                     <div class="text-wrapper has_fade_anim">
                         <p class="text">Our expert development team creates tailored software solutions that integrate
@@ -153,7 +148,7 @@ mobile applications, full-stack development, software engineering, enterprise so
             <div class="section-content">
                 <div class="thumb">
                     <img src="{{ asset('imgs/services/command-line.webp')}}" class="has_fade_anim" data-fade-from="left"
-                         alt="image">
+                         alt="Command line interface showing software development code for business applications">
                 </div>
                 <div class="content-last has_fade_anim">
                     <div class="section-title-wrapper">
@@ -163,6 +158,19 @@ mobile applications, full-stack development, software engineering, enterprise so
                     </div>
                     <div class="accordion-wrapper">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                            aria-controls="flush-collapseTwo">API Development & Integration</button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse show"
+                                     aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Our API development services enable seamless communication between different software systems, breaking down data silos and creating a unified technology ecosystem. We design RESTful APIs with robust security protocols, comprehensive documentation, and scalable architecture.
+                                    </div>
+                                </div>
+                            </div>
 
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingOne">
@@ -176,18 +184,7 @@ mobile applications, full-stack development, software engineering, enterprise so
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                            aria-controls="flush-collapseTwo">API Development & Integration</button>
-                                </h2>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse show"
-                                     aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Our API development services enable seamless communication between different software systems, breaking down data silos and creating a unified technology ecosystem. We design RESTful APIs with robust security protocols, comprehensive documentation, and scalable architecture.
-                                    </div>
-                                </div>
-                            </div>
+
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -200,6 +197,7 @@ mobile applications, full-stack development, software engineering, enterprise so
                                     </div>
                                 </div>
                             </div>
+
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -212,6 +210,7 @@ mobile applications, full-stack development, software engineering, enterprise so
                                     </div>
                                 </div>
                             </div>
+
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingFive">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -233,92 +232,8 @@ mobile applications, full-stack development, software engineering, enterprise so
 </section>
 <!-- faq area end  -->
 
-<!-- contact area start  -->
-<section class="contact-area">
-    <div class="container">
-        <div class="contact-area-inner section-spacing">
-            <div class="shape-1">
-                <img src="{{ asset('imgs/shape/img-s-73.webp')}}" alt="shape">
-            </div>
-            <div class="section-content">
-                <div class="section-title-wrapper">
-                    <div class="title-wrapper">
-                        <h2 class="section-title has_fade_anim">Start your digital transformation with Encodyn</h2>
-                    </div>
-                </div>
-                <div class="btn-wrapper has_fade_anim">
-                    <a href="{{ route('contact') }}" class="wc-btn wc-btn-underline btn-text-flip"> <span
-                            data-text="Let's discuss your project">Let's discuss your project</span>
-                        <img src="{{ asset('imgs/icon/arrow-right-half-light.webp')}}" alt="icon image"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- contact area end  -->
+@include('components.contact')
 
-<!-- client area start  -->
-<div class="client-area has_fade_anim">
-    <div class="container">
-        <div class="client-area-inner section-spacing">
-            <div class="client-area-text">
-                <h2 class="text">Trusted by innovative businesses</h2>
-            </div>
-            <div class="clients-wrapper-box">
-                <div class="clients-wrapper">
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-1.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-1-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-2.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-2-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-3.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-3-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-4.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-4-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-5.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-5-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-6.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-6-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-7.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-7-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-8.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-8-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-9.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-9-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-10.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-10-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-11.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-11-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-12.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-12-light.webp" alt="client image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- client area end  -->
+@include('components.clients')
 
 @endsection

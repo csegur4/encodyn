@@ -117,6 +117,7 @@
     @media #{$md} {
         border-radius: 30px 30px 0 0;
     }
+
 }
 
 .wc-btn-circle {
@@ -612,7 +613,6 @@
 
         &:before {
             position: absolute;
-            content: url(../imgs/shape/img-s-95.webp);
             z-index: 1;
             left: 50%;
             transform: translateX(-50%);
@@ -620,14 +620,12 @@
             transition: all 0.5s;
 
             @include dark {
-                content: url(../imgs/shape/img-s-95-dark.webp);
 
             }
         }
 
         &::after {
             position: absolute;
-            content: url(../imgs/shape/img-s-94.webp);
             z-index: 1;
             left: 50%;
             transform: translateX(-50%);
@@ -635,7 +633,6 @@
             transition: all 0.5s;
 
             @include dark {
-                content: url(../imgs/shape/img-s-94-dark.webp);
 
             }
         }
@@ -1237,7 +1234,7 @@
 
         &:before {
             position: absolute;
-            content: url(../imgs/shape/img-s-95.webp);
+            content: url(/public/imgs/shape/img-s-95.webp);
             z-index: 1;
             left: 50%;
             transform: translateX(-50%);
@@ -1245,14 +1242,14 @@
             transition: all 0.5s;
 
             @include dark {
-                content: url(../imgs/shape/img-s-95-dark.webp);
+                content: url(/public/imgs/shape/img-s-95-dark.webp);
 
             }
         }
 
         &::after {
             position: absolute;
-            content: url(../imgs/shape/img-s-94.webp);
+            content: url(/public/imgs/shape/img-s-94.webp);
             z-index: 1;
             left: 50%;
             transform: translateX(-50%);
@@ -1260,7 +1257,7 @@
             transition: all 0.5s;
 
             @include dark {
-                content: url(../imgs/shape/img-s-94-dark.webp);
+                content: url(/public/shape/img-s-94-dark.webp);
 
             }
         }
@@ -1844,4 +1841,9 @@
     img {
         opacity: 0.8;
     }
+}
+
+.mobile-submenu {
+    font-size: 20px !important;
+    margin-left: 20px;
 }

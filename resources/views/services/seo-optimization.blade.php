@@ -36,16 +36,9 @@ Technical optimization, content strategy, and measurable results.')
     <div class="container">
         <div class="thumb-main">
             <img src="{{ asset('imgs/services/seo-optimization-services.webp')}}" class="has_fade_anim" data-delay="0.30"
-                 data-fade-offset="0" alt="image">
-            <div class="hero-social">
-                <p class="title">Follow</p>
-                <div class="hero-social-links">
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-dribbble"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
+                 data-fade-offset="0"
+                 alt="SEO optimization services showing search rankings and analytics dashboard with performance metrics">
+            @include('components.social-media')
         </div>
         <div class="section-title-box">
             <div class="section-title-wrapper">
@@ -127,11 +120,13 @@ Technical optimization, content strategy, and measurable results.')
             </div>
             <div class="section-content">
                 <div class="shape has_fade_anim">
-                    <img class="show-light" src="{{ asset('imgs/shape/img-s-84.webp')}}" alt="shape">
+                    <img class="show-light" src="{{ asset('imgs/shape/img-s-84.webp')}}"
+                         alt="Decorative geometric element enhancing the SEO services section">
                 </div>
                 <div class="content-last">
                     <div class="thumb has_fade_anim">
-                        <img class="main-image" src="{{ asset('imgs/services/seo-search-engine-optimization-services.webp')}}" alt="image">
+                        <img class="main-image" src="{{ asset('imgs/services/seo-search-engine-optimization-services.webp')}}"
+                             alt="Search engine optimization strategy visualization with keyword targeting and organic traffic growth charts">
                     </div>
                     <div class="text-wrapper has_fade_anim">
                         <p class="text">Our expert SEO team employs the latest search engine optimization techniques to
@@ -160,7 +155,7 @@ Technical optimization, content strategy, and measurable results.')
             <div class="section-content">
                 <div class="thumb">
                     <img src="{{ asset('imgs/services/seo-analysis.webp')}}" class="has_fade_anim" data-fade-from="left"
-                         alt="image">
+                         alt="SEO analysis and keyword research tools showing website performance optimization data">
                 </div>
                 <div class="content-last has_fade_anim">
                     <div class="section-title-wrapper">
@@ -239,233 +234,8 @@ Technical optimization, content strategy, and measurable results.')
 </section>
 <!-- faq area end  -->
 
-<!-- client area start  -->
-<div class="client-area has_fade_anim">
-    <div class="container">
-        <div class="client-area-inner section-spacing">
-            <div class="client-area-text">
-                <h2 class="text">We worked with largest
-                    global brands</h2>
-            </div>
-            <div class="clients-wrapper-box">
-                <div class="clients-wrapper">
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-1.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-1-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-2.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-2-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-3.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-3-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-4.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-4-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-5.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-5-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-6.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-6-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-7.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-7-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-8.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-8-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-9.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-9-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-10.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-10-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-11.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-11-light.webp" alt="client image">
-                    </div>
-                    <div class="client-box">
-                        <img class="show-light" src="assets/imgs/brand/img-s-12.webp" alt="client image">
-                        <img class="show-dark" src="assets/imgs/brand/img-s-12-light.webp" alt="client image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- client area end  -->
+@include('components.contact')
 
-<!-- contact area start  -->
-<section class="contact-area">
-    <div class="container">
-        <div class="contact-area-inner section-spacing">
-            <div class="shape-1">
-                <img src="{{ asset('imgs/shape/img-s-73.webp')}}" alt="shape">
-            </div>
-            <div class="section-content">
-                <div class="section-title-wrapper">
-                    <div class="title-wrapper">
-                        <h2 class="section-title has_fade_anim">Start your digital transformation with Encodyn</h2>
-                    </div>
-                </div>
-                <div class="btn-wrapper has_fade_anim">
-                    <a href="{{ route('contact') }}" class="wc-btn wc-btn-underline btn-text-flip"> <span
-                            data-text="Let's discuss your project">Let's discuss your project</span>
-                        <img src="{{ asset('imgs/icon/arrow-right-half-light.webp')}}" alt="icon image"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- contact area end  -->
+@include('components.clients')
 
-<!-- pricing area start  -->
-<section class="pricing-area">
-    <div class="container">
-        <div class="pricing-area-inner section-spacing">
-            <div class="section-header">
-                <div class="section-title-wrapper">
-                    <div class="title-wrapper">
-                        <h2 class="section-title has_fade_anim">Special offer! choose
-                            your pack today</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="pricing-wrapper-box">
-                <div class="pricing-wrapper">
-                    <div class="pricing-box has_fade_anim" data-delay="0.15">
-                        <span class="tag">Basic</span>
-                        <h3 class="price">$9.00</h3>
-                        <div class="feature-list">
-                            <ul>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Unlimited cards
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Automated management
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    SOX compliance
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Enterprise ERP integrations
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Limited tools
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Local video issuance
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="contact.html" class="wc-btn wc-btn-primary btn-text-flip bordered"> <span
-                                data-text="Learn More">Learn More</span></a>
-                    </div>
-                    <div class="pricing-box has_fade_anim" data-delay="0.30">
-                        <span class="tag">Standard</span>
-                        <h3 class="price">$29.00</h3>
-                        <div class="feature-list">
-                            <ul>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Unlimited cards
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Automated management
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    SOX compliance
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Enterprise ERP integrations
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Limited tools
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Local video issuance
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="contact.html" class="wc-btn wc-btn-primary btn-text-flip bordered"> <span
-                                data-text="Learn More">Learn More</span></a>
-                    </div>
-                    <div class="pricing-box has_fade_anim" data-delay="0.45">
-                        <span class="tag">Premium</span>
-                        <h3 class="price">$69.00</h3>
-                        <div class="feature-list">
-                            <ul>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Unlimited cards
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Automated management
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    SOX compliance
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Enterprise ERP integrations
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Unlimited tools
-                                </li>
-                                <li>
-                                    <img class="show-light" src="assets/imgs/icon/check-2.webp" alt="icon image">
-                                    <img class="show-dark" src="assets/imgs/icon/check-2-light.webp" alt="icon image">
-                                    Local video issuance
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="contact.html" class="wc-btn wc-btn-primary btn-text-flip bordered"> <span
-                                data-text="Learn More">Learn More</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- pricing area end  -->
 @endsection

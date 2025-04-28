@@ -1,4 +1,16 @@
 {
+  "public/imgs/shape/img-s-94.webp": {
+    "file": "assets/img-s-94-BFd_21Ry.webp",
+    "src": "public/imgs/shape/img-s-94.webp"
+  },
+  "public/imgs/shape/img-s-95-dark.webp": {
+    "file": "assets/img-s-94-BFd_21Ry.webp",
+    "src": "public/imgs/shape/img-s-94.webp"
+  },
+  "public/imgs/shape/img-s-95.webp": {
+    "file": "assets/img-s-94-BFd_21Ry.webp",
+    "src": "public/imgs/shape/img-s-94.webp"
+  },
   "resources/fonts/Archivo-Black.ttf": {
     "file": "assets/Archivo-Black-CCkosxG9.ttf",
     "src": "resources/fonts/Archivo-Black.ttf"
@@ -336,17 +348,17 @@
     "isEntry": true
   },
   "resources/scss/master-branding-agency.scss": {
-    "file": "assets/master-branding-agency-JfbWMjZU.css",
+    "file": "assets/master-branding-agency-BXGexFvE.css",
     "src": "resources/scss/master-branding-agency.scss",
     "isEntry": true
   },
   "resources/scss/master-common.scss": {
-    "file": "assets/master-common-BrZTtez-.css",
+    "file": "assets/master-common-BtM0yJut.css",
     "src": "resources/scss/master-common.scss",
     "isEntry": true
   },
   "resources/scss/master-contact.scss": {
-    "file": "assets/master-contact-DkSm6LY4.css",
+    "file": "assets/master-contact-BmblE0sc.css",
     "src": "resources/scss/master-contact.scss",
     "isEntry": true
   },
@@ -356,7 +368,7 @@
     "isEntry": true
   },
   "resources/scss/master-services.scss": {
-    "file": "assets/master-services-lC8q6ENC.css",
+    "file": "assets/master-services-DpIkpDg_.css",
     "src": "resources/scss/master-services.scss",
     "isEntry": true
   }

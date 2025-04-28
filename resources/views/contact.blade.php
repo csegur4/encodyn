@@ -40,16 +40,14 @@ We are ready to answer your questions and create custom solutions for your busin
                 <div class="section-header">
                     <div class="section-title-wrapper">
                         <div class="title-wrapper">
-                            <h2 class="section-title large has_fade_anim">We’ve been
-                                waiting for you!</h2>
+                            <h2 class="section-title large has_fade_anim">Let's Create Something Amazing Together</h2>
                         </div>
                     </div>
                 </div>
                 <div class="section-content">
                     <div class="info-box has_fade_anim">
                         <div class="text-wrapper">
-                            <p class="text">We want to hear from you. let’s
-                                us know how we can help!</p>
+                            <p class="text">Ready to transform your business with custom digital solutions? We're here to help.</p>
                         </div>
                         <ul class="contact-list">
                             <li><a href="tel:+8130000000">+813 000 0000</a></li>
@@ -72,24 +70,21 @@ We are ready to answer your questions and create custom solutions for your busin
                                     <div class="contact-formfield">
                                         <input type="text" name="phone" id="phone" placeholder="Phone">
                                     </div>
-                                    <div class="contact-formfield">
-                                        <input type="text" name="subject" id="subject" placeholder="Subject*">
-                                    </div>
                                     <div class="contact-formfield messages">
                                         <input type="text" name="message" id="message" placeholder="Message*">
                                     </div>
                                 </div>
-                                <div class="g-recaptcha pt" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback="enableSubmitButtonContact"></div>
+                                <div class="g-recaptcha pt-4" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback="enableSubmitButtonContact"></div>
                                 <div class="submit-btn">
                                     <button type="submit" id='submitButton' class="wc-btn wc-btn-primary btn-text-flip" disabled><span
                                             data-text="Send Message">Send Message</span></button>
                                 </div>
                             </form>
                         @else
-                            <div class="text-center my-5">
-                                <i class="fa fa-check-circle text-success mb-3" style="font-size: 48px;"></i>
+                            <div>
+                                <i class="fa fa-check-circle mb-3" style="font-size: 48px;"></i>
                                 <h4 class="mb-3">Your message has been sent successfully</h4>
-                                <p class="text-muted mb-4">Thank you for contacting us! We will get back to you soon.</p>
+                                <p class="text-muted mb-4">Thanks for reaching out! Our team will contact you within 24 hours to discuss your project needs.</p>
                                 <a href="{{ route('home') }}" class="btn-main">Return to Home</a>
                             </div>
                         @endif
@@ -113,7 +108,6 @@ We are ready to answer your questions and create custom solutions for your busin
     <script>
         function enableSubmitButtonContact() {
             document.getElementById('submitButton').disabled = false;
-            document.getElementById('submitButton').setAttribute('class', 'btn-main');
         }
     </script>
 @endsection
