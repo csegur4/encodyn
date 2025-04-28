@@ -59,7 +59,8 @@ We are ready to answer your questions and create custom solutions for your busin
                         </ul>
                     </div>
                     <div class="contact-wrap has_fade_anim" data-delay="0.30">
-                        <form action="{{ route('contactAction') }}">
+                        <form name="contactForm" method="post" action="{{ route('contactAction') }}">
+                            @csrf
                             <div class="contact-formwrap">
                                 <div class="contact-formfield">
                                     <input type="text" name="Name" id="name" placeholder="Name*">
@@ -77,9 +78,9 @@ We are ready to answer your questions and create custom solutions for your busin
                                     <input type="text" name="Messages" id="message" placeholder="Message*">
                                 </div>
                             </div>
-                            <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback="enableSubmitButtonContact"></div>
+                            <div class="g-recaptcha pt" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback="enableSubmitButtonContact"></div>
                             <div class="submit-btn">
-                                <button type="submit" id='submitButton' class="wc-btn wc-btn-primary btn-text-flip" disabled><span
+                                <button type="submit" id='submitButton' class="wc-btn wc-btn-primary btn-text-flip" ><span
                                         data-text="Send Message">Send Message</span></button>
                             </div>
                         </form>
