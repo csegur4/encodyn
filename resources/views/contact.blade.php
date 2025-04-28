@@ -59,31 +59,51 @@ We are ready to answer your questions and create custom solutions for your busin
                         </ul>
                     </div>
                     <div class="contact-wrap has_fade_anim" data-delay="0.30">
-                        <form name="contactForm" method="post" action="{{ route('contactAction') }}">
-                            @csrf
-                            <div class="contact-formwrap">
-                                <div class="contact-formfield">
-                                    <input type="text" name="name" id="name" placeholder="Name*">
+                        @if(!session('success'))
+                            <form name="contactForm" method="post" action="{{ route('contactAction') }}">
+                                @csrf
+                                <div class="contact-formwrap">
+                                    <div class="contact-formfield">
+                                        <input type="text" name="name" id="name" placeholder="Name*">
+                                    </div>
+                                    <div class="contact-formfield">
+                                        <input type="text" name="email" id="email" placeholder="Email*">
+                                    </div>
+                                    <div class="contact-formfield">
+                                        <input type="text" name="phone" id="phone" placeholder="Phone">
+                                    </div>
+                                    <div class="contact-formfield">
+                                        <input type="text" name="subject" id="subject" placeholder="Subject*">
+                                    </div>
+                                    <div class="contact-formfield messages">
+                                        <input type="text" name="message" id="message" placeholder="Message*">
+                                    </div>
                                 </div>
-                                <div class="contact-formfield">
-                                    <input type="text" name="email" id="email" placeholder="Email*">
+                                <div class="g-recaptcha pt" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback="enableSubmitButtonContact"></div>
+                                <div class="submit-btn">
+                                    <button type="submit" id='submitButton' class="wc-btn wc-btn-primary btn-text-flip" disabled><span
+                                            data-text="Send Message">Send Message</span></button>
                                 </div>
-                                <div class="contact-formfield">
-                                    <input type="text" name="phone" id="phone" placeholder="Phone">
-                                </div>
-                                <div class="contact-formfield">
-                                    <input type="text" name="subject" id="subject" placeholder="Subject*">
-                                </div>
-                                <div class="contact-formfield messages">
-                                    <input type="text" name="message" id="message" placeholder="Message*">
-                                </div>
+                            </form>
+                        @else
+                            <div class="text-center my-5">
+                                <i class="fa fa-check-circle text-success mb-3" style="font-size: 48px;"></i>
+                                <h4 class="mb-3">Your message has been sent successfully</h4>
+                                <p class="text-muted mb-4">Thank you for contacting us! We will get back to you soon.</p>
+                                <a href="{{ route('home') }}" class="btn-main">Return to Home</a>
                             </div>
-                            <div class="g-recaptcha pt" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback="enableSubmitButtonContact"></div>
-                            <div class="submit-btn">
-                                <button type="submit" id='submitButton' class="wc-btn wc-btn-primary btn-text-flip" disabled><span
-                                        data-text="Send Message">Send Message</span></button>
-                            </div>
-                        </form>
+                        @endif
+                            @if($errors->any())
+                                <div class="alert alert-danger mt-3">
+                                    <ul class="m-0 p-0">
+                                        @foreach($errors->all() as $error)
+                                            <li>
+                                                <div class="error_message"> <span><i class="icofont-error"></i></span> {{ $error }}</div>
+                                            </li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
                     </div>
                 </div>
             </div>
