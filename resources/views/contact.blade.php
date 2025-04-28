@@ -63,19 +63,19 @@ We are ready to answer your questions and create custom solutions for your busin
                             @csrf
                             <div class="contact-formwrap">
                                 <div class="contact-formfield">
-                                    <input type="text" name="Name" id="name" placeholder="Name*">
+                                    <input type="text" name="name" id="name" placeholder="Name*">
                                 </div>
                                 <div class="contact-formfield">
-                                    <input type="text" name="Email" id="email" placeholder="Email*">
+                                    <input type="text" name="email" id="email" placeholder="Email*">
                                 </div>
                                 <div class="contact-formfield">
-                                    <input type="text" name="Phone" id="phone" placeholder="Phone">
+                                    <input type="text" name="phone" id="phone" placeholder="Phone">
                                 </div>
                                 <div class="contact-formfield">
-                                    <input type="text" name="Subject" id="subject" placeholder="Subject*">
+                                    <input type="text" name="subject" id="subject" placeholder="Subject*">
                                 </div>
                                 <div class="contact-formfield messages">
-                                    <input type="text" name="Messages" id="message" placeholder="Message*">
+                                    <input type="text" name="message" id="message" placeholder="Message*">
                                 </div>
                             </div>
                             <div class="g-recaptcha pt" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback="enableSubmitButtonContact"></div>
