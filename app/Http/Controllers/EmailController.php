@@ -36,7 +36,7 @@ class EmailController extends Controller
             'message' => $request->input('message')
         );
         try {
-            Mail::to(config('app.admin_email'))->send(new EmailService($data, $subject, 'contact-template'));
+            Mail::to(env('ADMIN_EMAIL'))->send(new EmailService($data, $subject, 'contact-template'));
         } catch (\Exception $exception){
             Log::info($exception->getMessage());
             return redirect()->route('contact-us')->withErrors(['Error sending mail.']);
