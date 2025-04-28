@@ -39,10 +39,10 @@ class EmailController extends Controller
             Mail::to(env('ADMIN_EMAIL'))->send(new EmailService($data, $subject, 'contact-template'));
         } catch (\Exception $exception){
             Log::info($exception->getMessage());
-            return redirect()->route('contact-us')->withErrors(['Error sending mail.']);
+            return redirect()->route('contact')->withErrors(['Error sending mail.']);
         }
 
-        return redirect()->route('contact-us')->with('success', 'Contact successfully.');
+        return redirect()->route('contact')->with('success', 'Contact successfully.');
     }
     protected function validateRecaptcha($recaptchaResponse)
     {
