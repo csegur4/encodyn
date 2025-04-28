@@ -23,7 +23,7 @@ class EmailService extends Mailable
     public function build(): EmailService
     {
         $data = $this->data;
-        return $this->from(config('mail.from.address'), config('mail.from.name'))
+        return $this->from(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'))
             ->subject($this->_subject)
             ->view('emails.'.$this->template, compact('data'));
     }
