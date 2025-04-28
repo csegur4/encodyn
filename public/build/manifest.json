@@ -362,6 +362,11 @@
     "src": "resources/scss/master-contact.scss",
     "isEntry": true
   },
+  "resources/scss/master-error-404.scss": {
+    "file": "assets/master-error-404-b1jgmw3G.css",
+    "src": "resources/scss/master-error-404.scss",
+    "isEntry": true
+  },
   "resources/scss/master-service-details.scss": {
     "file": "assets/master-service-details-DWchcXaM.css",
     "src": "resources/scss/master-service-details.scss",
