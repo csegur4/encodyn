@@ -205,10 +205,8 @@ digital transformation, business growth, technology solutions, software engineer
                 <div class="works-wrapper">
                     <div class="work-box">
                         <div class="thumb">
-                            <a>
                                 <img src="{{ asset('imgs/works/airq.webp')}}"
                                      alt="Air Q Contractors website design and Stripe integration project by Encodyn">
-                            </a>
                         </div>
                         <div class="content">
                             <h3 class="title">Air Q <br>Contractors</h3>
@@ -220,10 +218,8 @@ digital transformation, business growth, technology solutions, software engineer
                     </div>
                     <div class="work-box">
                         <div class="thumb">
-                            <a>
                                 <img src="{{ asset('imgs/works/consultoriomedico.webp')}}"
                                      alt="Consultorio Medico Bellaire healthcare website with appointment scheduling integration">
-                            </a>
                         </div>
                         <div class="content">
                             <h3 class="title">Consultorio Medico <br>
@@ -236,10 +232,8 @@ digital transformation, business growth, technology solutions, software engineer
                     </div>
                     <div class="work-box">
                         <div class="thumb">
-                            <a>
                                 <img src="{{ asset('imgs/works/elitepharmacy.webp')}}"
                                      alt="Elite Pharmacy responsive website design showcasing healthcare services">
-                            </a>
                         </div>
                         <div class="content">
                             <h3 class="title">Elite <br>
@@ -251,10 +245,8 @@ digital transformation, business growth, technology solutions, software engineer
                     </div>
                     <div class="work-box">
                         <div class="thumb">
-                            <a>
                                 <img src="{{ asset('imgs/works/sanasana.webp')}}"
                                      alt="Sana Sana brand identity design project by Encodyn">
-                            </a>
                         </div>
                         <div class="content">
                             <h3 class="title">Sana <br>

@@ -13,6 +13,7 @@ export default defineConfig({
                 'resources/scss/master-blog-details.scss',
                 'resources/scss/master-services.scss',
                 'resources/scss/master-service-details.scss',
+                'resources/scss/master-error-404.scss',
                 'resources/js/app.js'
             ],
             refresh: true,

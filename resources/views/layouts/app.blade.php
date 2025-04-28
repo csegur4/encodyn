@@ -70,27 +70,8 @@
                     <span></span>
                 </button>
             </div>
-            <div class="">
-                <div class="offcanvas-3__meta mb-145 d-none d-md-block">
-                    <ul>
-                        <li><a href="tel:+2-352698102" class="unnerline"><u>+2-352 698 102</u></a></li>
-                        <li><a href="mailto:contact@me.com">contact@me.com</a></li>
-                        <li><a href="">27 Division St, <br>
-                                New York, NY 10002, USA</a></li>
-                    </ul>
-                </div>
-                <div class="offcanvas-3__social d-none d-md-block">
-                    <p class="title">Follow Me</p>
-                    <div class="offcanvas-3__social-links">
-                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                        <a href=""><i class="fa-brands fa-dribbble"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
         </div>
-        <div class="offcanvas-3__menu-wrapper">
+        <div class="offcanvas-3__menu-wrapper pb-5 pt-5">
             <nav class="nav-menu offcanvas-3__menu">
                 <ul>
                     <li><a href="{{ route('home') }}">home</a></li>
@@ -103,6 +84,23 @@
                 </ul>
             </nav>
         </div>
+        <div class="">
+            <div class="offcanvas-3__meta mb-145 pt-5">
+                <ul>
+                    <li><a href="tel:8130000000" class="unnerline"><u>813 000 0000</u></a></li>
+                    <li><a href="mailto:{{ env('APP_COMPANY_EMAIL') }}">{{ env('APP_COMPANY_EMAIL') }}</a></li>
+                    <li><a href="">Tampa, <br>
+                            Florida, 33603, USA</a></li>
+                </ul>
+            </div>
+            <div class="offcanvas-3__social">
+                <p class="title">Follow Us</p>
+                <div class="offcanvas-3__social-links">
+                    <a href="https://www.linkedin.com/company/encodyn" aria-label="Follow Encodyn on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/encodyn" aria-label="Follow Encodyn on Instagram"><i class="fa-brands fa-instagram" ></i></a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <!-- offcanvas end  -->
@@ -113,7 +111,7 @@
         <div class="header-area__inner">
             <div class="header__logo">
                 <a href="{{ route('home') }}">
-                    <img src="{{ asset('imgs/encodyn-logo.svg')}}" alt="image" style="width: 240px">
+                    <img src="{{ asset('imgs/encodyn-logo-black.webp')}}" alt="image" style="width: 250px">
                 </a>
             </div>
             <div class="header__nav pos-center">
@@ -173,7 +171,7 @@
                     <div class="footer-area-inner section-spacing-top">
                         <div class="footer-widget-wrapper">
                             <div class="footer-logo">
-                                <a href="{{ route('home') }}"><img src="{{ asset('imgs/encodyn-logo-white.svg') }}" alt="site-logo" style="width: 250px"></a>
+                                <a href="{{ route('home') }}"><img src="{{ asset('imgs/encodyn-logo-white.webp') }}" alt="site-logo" style="width: 230px"></a>
                             </div>
                         </div>
                         <div class="footer-widget-wrapper">
