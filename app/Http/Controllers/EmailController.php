@@ -39,7 +39,8 @@ class EmailController extends Controller
             Mail::to(env('ADMIN_EMAIL'))->send(new EmailService($data, $subject, 'contact-template'));
         } catch (\Exception $exception){
             Log::info($exception->getMessage());
-            return redirect()->route('contact')->withErrors(['Error sending mail.']);
+            //return redirect()->route('contact')->withErrors(['Error sending mail.']);
+            return redirect()->route('contact')->withErrors(['email' => 'Error sending mail: ' . $exception->getMessage()]);
         }
 
         return redirect()->route('contact')->with('success', 'Contact successfully.');
