@@ -151,7 +151,7 @@
                 </div>
             </div>
             <div class="header__navicon d-xl-none">
-                <button onclick="showCanvas3()" class="open-offcanvas">
+                <button onclick="showCanvas3()" class="open-offcanvas" aria-label="Open Menu">
                     <i class="fa-solid fa-bars"></i></button>
             </div>
         </div>
@@ -204,8 +204,16 @@
                         <div class="footer-widget-wrapper">
                             <h2 class="title">Follow Us</h2>
                             <ul class="social-links">
-                                <li><a href="https://www.instagram.com/encodyn" aria-label="Follow Encodyn on Instagram" ><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/company/encodyn" aria-label="Follow Encodyn on LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li>
+                                    <a href="https://www.instagram.com/encodyn" aria-label="Follow Encodyn on Instagram" >
+                                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/encodyn" aria-label="Follow Encodyn on LinkedIn">
+                                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>

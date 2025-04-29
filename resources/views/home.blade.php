@@ -182,24 +182,6 @@ digital transformation, business growth, technology solutions, software engineer
                             work</h2>
                     </div>
                 </div>
-                <div class="content-last">
-                    <div class="link-meta has_fade_anim" data-fade-from="left">
-                        <div class="profile-item">
-                            <div class="icon"><i class="fa-brands fa-linkedin-in" aria-label="Encodyn LinkedIn profile"></i></div>
-                            <div class="">
-                                <span class="meta-title">Follow</span>
-                                <h2 class="name">LinkedIn</h2>
-                            </div>
-                        </div>
-                        <div class="profile-item">
-                            <div class="icon"><i class="fa-brands fa-instagram" aria-label="Encodyn Instagram profile"></i></div>
-                            <div class="">
-                                <span class="meta-title">Follow</span>
-                                <h2 class="name">Instagram</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="works-wrapper-box">
                 <div class="works-wrapper">
