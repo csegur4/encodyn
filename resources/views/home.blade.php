@@ -283,8 +283,8 @@ digital transformation, business growth, technology solutions, software engineer
 </section>
 <!-- work area end  -->
 
-<div class="image-wrapper section-style pb-0 overflow-hidden">
-    <video class="w-100" src="{{ asset('imgs/software.mp4')}}"
+<div class="image-wrapper pb-0 section-style overflow-hidden">
+    <video class="custom-video" src="{{ asset('imgs/software.mp4')}}"
            autoplay loop muted playsinline
            aria-label="Software development process visualization by Encodyn">
     </video>

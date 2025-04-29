@@ -680,6 +680,16 @@
     }
 }
 
+.custom-video {
+    width: auto;
+}
+
+@media (min-width: 576px) {
+    .custom-video {
+        width: 100%;
+    }
+}
+
 /* fun fact area style  */
 .fun-fact-area {
     background-color: #D9DCED;
