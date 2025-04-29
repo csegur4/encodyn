@@ -289,7 +289,11 @@ digital transformation, business growth, technology solutions, software engineer
            aria-label="Software development process visualization by Encodyn">
     </video>
 </div>
-
+<section class="cta-area section-style section-item">
+    <div class="container">
+        @include('components.clients')
+    </div>
+</section>
 <!-- testimonial area start  -->
 <div class="dark">
 <div class="testimonial-area section-style section-item">
