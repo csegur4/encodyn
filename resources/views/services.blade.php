@@ -9,13 +9,13 @@ Custom digital solutions for businesses seeking measurable growth and ROI.')
     <meta property="og:description" content="Transform your business with Encodyn's custom digital solutions - from software development and web design to SEO and brand identity.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:image" content="{{ asset('imgs/og-services.webp') }}">
+    <meta property="og:image" content="{{ asset('imgs/encodyn-social-media.webp') }}">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Professional Digital Services | Encodyn">
     <meta name="twitter:description" content="Transform your business with Encodyn's custom digital solutions - from software development and web design to SEO and brand identity.">
-    <meta name="twitter:image" content="{{ asset('imgs/og-services.webp') }}">
+    <meta name="twitter:image" content="{{ asset('imgs/encodyn-social-media.webp') }}">
 
     <!-- WhatsApp -->
     <meta property="og:site_name" content="Encodyn">
