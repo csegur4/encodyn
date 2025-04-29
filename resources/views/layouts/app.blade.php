@@ -89,8 +89,7 @@
                 <ul>
                     <li><a href="tel:8130000000" class="unnerline"><u>813 000 0000</u></a></li>
                     <li><a href="mailto:{{ env('APP_COMPANY_EMAIL') }}">{{ env('APP_COMPANY_EMAIL') }}</a></li>
-                    <li><a href="">Tampa, <br>
-                            Florida, 33603, USA</a></li>
+                    <li>Tampa, Florida, 33603, USA</li>
                 </ul>
             </div>
             <div class="offcanvas-3__social">
@@ -196,8 +195,8 @@
                         <div class="footer-widget-wrapper">
                             <h2 class="title">Follow Us</h2>
                             <ul class="social-links">
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li><a href="https://www.instagram.com/encodyn" aria-label="Follow Encodyn on Instagram" ><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/encodyn" aria-label="Follow Encodyn on LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
