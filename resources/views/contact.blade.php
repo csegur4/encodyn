@@ -71,7 +71,7 @@ We are ready to answer your questions and create custom solutions for your busin
                                         <input type="text" name="phone" id="phone" placeholder="Phone">
                                     </div>
                                     <div class="contact-formfield messages">
-                                        <input type="text" name="message" id="message" placeholder="Message*">
+                                        <textarea name="message" id="message" placeholder="Message*" rows="4" required></textarea>
                                     </div>
                                 </div>
                                 <div class="g-recaptcha pt-4" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}" data-callback="enableSubmitButtonContact"></div>
@@ -85,7 +85,7 @@ We are ready to answer your questions and create custom solutions for your busin
                                 <i class="fa fa-check-circle mb-3" style="font-size: 48px;"></i>
                                 <h4 class="mb-3">Your message has been sent successfully</h4>
                                 <p class="text-muted mb-4">Thanks for reaching out! Our team will contact you within 24 hours to discuss your project needs.</p>
-                                <a href="{{ route('home') }}" class="btn-main">Return to Home</a>
+                                <a href="{{ route('home') }}" class="wc-btn wc-btn-primary btn-text-flip">Return to Home</a>
                             </div>
                         @endif
                             @if($errors->any())

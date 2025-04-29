@@ -92,6 +92,19 @@
         }
     }
 
+    .open-offcanvas {
+        font-size: 25px;
+        color: #0a53be;
+    }
+
+    .open-offcanvas i {
+        color: #000000 !important;
+    }
+
+    .main-menu>ul>li:hover>a {
+        color: var(--white-2);
+    }
+
 }
 
 .main-menu {

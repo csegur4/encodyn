@@ -11,114 +11,6 @@
     "file": "assets/img-s-94-BFd_21Ry.webp",
     "src": "public/imgs/shape/img-s-94.webp"
   },
-  "resources/fonts/Archivo-Black.ttf": {
-    "file": "assets/Archivo-Black-CCkosxG9.ttf",
-    "src": "resources/fonts/Archivo-Black.ttf"
-  },
-  "resources/fonts/Archivo-Black.woff": {
-    "file": "assets/Archivo-Black-XdOxbOST.woff",
-    "src": "resources/fonts/Archivo-Black.woff"
-  },
-  "resources/fonts/Archivo-Black.woff2": {
-    "file": "assets/Archivo-Black-Cbdz1KSt.woff2",
-    "src": "resources/fonts/Archivo-Black.woff2"
-  },
-  "resources/fonts/Archivo-BlackItalic.ttf": {
-    "file": "assets/Archivo-BlackItalic-z3tRKbRj.ttf",
-    "src": "resources/fonts/Archivo-BlackItalic.ttf"
-  },
-  "resources/fonts/Archivo-BlackItalic.woff": {
-    "file": "assets/Archivo-BlackItalic-o1B4b9pl.woff",
-    "src": "resources/fonts/Archivo-BlackItalic.woff"
-  },
-  "resources/fonts/Archivo-BlackItalic.woff2": {
-    "file": "assets/Archivo-BlackItalic-DUhtbscC.woff2",
-    "src": "resources/fonts/Archivo-BlackItalic.woff2"
-  },
-  "resources/fonts/Archivo-Bold.ttf": {
-    "file": "assets/Archivo-Bold-CDuv4FHG.ttf",
-    "src": "resources/fonts/Archivo-Bold.ttf"
-  },
-  "resources/fonts/Archivo-Bold.woff": {
-    "file": "assets/Archivo-Bold-CMh66F_u.woff",
-    "src": "resources/fonts/Archivo-Bold.woff"
-  },
-  "resources/fonts/Archivo-Bold.woff2": {
-    "file": "assets/Archivo-Bold-ByQiud6C.woff2",
-    "src": "resources/fonts/Archivo-Bold.woff2"
-  },
-  "resources/fonts/Archivo-BoldItalic.ttf": {
-    "file": "assets/Archivo-BoldItalic-B9K-Dt9j.ttf",
-    "src": "resources/fonts/Archivo-BoldItalic.ttf"
-  },
-  "resources/fonts/Archivo-BoldItalic.woff": {
-    "file": "assets/Archivo-BoldItalic-h7m3oLnr.woff",
-    "src": "resources/fonts/Archivo-BoldItalic.woff"
-  },
-  "resources/fonts/Archivo-BoldItalic.woff2": {
-    "file": "assets/Archivo-BoldItalic-BTwq64ne.woff2",
-    "src": "resources/fonts/Archivo-BoldItalic.woff2"
-  },
-  "resources/fonts/Archivo-ExtraBold.ttf": {
-    "file": "assets/Archivo-ExtraBold-lWAo7C3m.ttf",
-    "src": "resources/fonts/Archivo-ExtraBold.ttf"
-  },
-  "resources/fonts/Archivo-ExtraBold.woff": {
-    "file": "assets/Archivo-ExtraBold-FrShttb6.woff",
-    "src": "resources/fonts/Archivo-ExtraBold.woff"
-  },
-  "resources/fonts/Archivo-ExtraBold.woff2": {
-    "file": "assets/Archivo-ExtraBold-H1rnX6mK.woff2",
-    "src": "resources/fonts/Archivo-ExtraBold.woff2"
-  },
-  "resources/fonts/Archivo-ExtraBoldItalic.ttf": {
-    "file": "assets/Archivo-ExtraBoldItalic-B0xjPMdX.ttf",
-    "src": "resources/fonts/Archivo-ExtraBoldItalic.ttf"
-  },
-  "resources/fonts/Archivo-ExtraBoldItalic.woff": {
-    "file": "assets/Archivo-ExtraBoldItalic-B23Hn_X4.woff",
-    "src": "resources/fonts/Archivo-ExtraBoldItalic.woff"
-  },
-  "resources/fonts/Archivo-ExtraBoldItalic.woff2": {
-    "file": "assets/Archivo-ExtraBoldItalic--q2zSVu-.woff2",
-    "src": "resources/fonts/Archivo-ExtraBoldItalic.woff2"
-  },
-  "resources/fonts/Archivo-ExtraLight.ttf": {
-    "file": "assets/Archivo-ExtraLight-CtKmEryZ.ttf",
-    "src": "resources/fonts/Archivo-ExtraLight.ttf"
-  },
-  "resources/fonts/Archivo-ExtraLight.woff": {
-    "file": "assets/Archivo-ExtraLight-CAVJHOtH.woff",
-    "src": "resources/fonts/Archivo-ExtraLight.woff"
-  },
-  "resources/fonts/Archivo-ExtraLight.woff2": {
-    "file": "assets/Archivo-ExtraLight-BNCaonIw.woff2",
-    "src": "resources/fonts/Archivo-ExtraLight.woff2"
-  },
-  "resources/fonts/Archivo-ExtraLightItalic.ttf": {
-    "file": "assets/Archivo-ExtraLightItalic-eX8wDspL.ttf",
-    "src": "resources/fonts/Archivo-ExtraLightItalic.ttf"
-  },
-  "resources/fonts/Archivo-ExtraLightItalic.woff": {
-    "file": "assets/Archivo-ExtraLightItalic-DQ4B32fQ.woff",
-    "src": "resources/fonts/Archivo-ExtraLightItalic.woff"
-  },
-  "resources/fonts/Archivo-ExtraLightItalic.woff2": {
-    "file": "assets/Archivo-ExtraLightItalic-CmvAiP7r.woff2",
-    "src": "resources/fonts/Archivo-ExtraLightItalic.woff2"
-  },
-  "resources/fonts/Archivo-Italic.ttf": {
-    "file": "assets/Archivo-Italic-JZwOlm2J.ttf",
-    "src": "resources/fonts/Archivo-Italic.ttf"
-  },
-  "resources/fonts/Archivo-Italic.woff": {
-    "file": "assets/Archivo-Italic-DrXLxduY.woff",
-    "src": "resources/fonts/Archivo-Italic.woff"
-  },
-  "resources/fonts/Archivo-Italic.woff2": {
-    "file": "assets/Archivo-Italic-CYEwCw35.woff2",
-    "src": "resources/fonts/Archivo-Italic.woff2"
-  },
   "resources/fonts/Archivo-Light.ttf": {
     "file": "assets/Archivo-Light-nMfAdkB1.ttf",
     "src": "resources/fonts/Archivo-Light.ttf"
@@ -130,102 +22,6 @@
   "resources/fonts/Archivo-Light.woff2": {
     "file": "assets/Archivo-Light-C2mqemZI.woff2",
     "src": "resources/fonts/Archivo-Light.woff2"
-  },
-  "resources/fonts/Archivo-LightItalic.ttf": {
-    "file": "assets/Archivo-LightItalic-Dy3Cwkia.ttf",
-    "src": "resources/fonts/Archivo-LightItalic.ttf"
-  },
-  "resources/fonts/Archivo-LightItalic.woff": {
-    "file": "assets/Archivo-LightItalic-D7rycluK.woff",
-    "src": "resources/fonts/Archivo-LightItalic.woff"
-  },
-  "resources/fonts/Archivo-LightItalic.woff2": {
-    "file": "assets/Archivo-LightItalic-B8QPH7k-.woff2",
-    "src": "resources/fonts/Archivo-LightItalic.woff2"
-  },
-  "resources/fonts/Archivo-Medium.ttf": {
-    "file": "assets/Archivo-Medium-N2S-p9vx.ttf",
-    "src": "resources/fonts/Archivo-Medium.ttf"
-  },
-  "resources/fonts/Archivo-Medium.woff": {
-    "file": "assets/Archivo-Medium-Co3-SVOq.woff",
-    "src": "resources/fonts/Archivo-Medium.woff"
-  },
-  "resources/fonts/Archivo-Medium.woff2": {
-    "file": "assets/Archivo-Medium-KxGXiAS2.woff2",
-    "src": "resources/fonts/Archivo-Medium.woff2"
-  },
-  "resources/fonts/Archivo-MediumItalic.ttf": {
-    "file": "assets/Archivo-MediumItalic-tkLjk_c3.ttf",
-    "src": "resources/fonts/Archivo-MediumItalic.ttf"
-  },
-  "resources/fonts/Archivo-MediumItalic.woff": {
-    "file": "assets/Archivo-MediumItalic-0X8NrSLk.woff",
-    "src": "resources/fonts/Archivo-MediumItalic.woff"
-  },
-  "resources/fonts/Archivo-MediumItalic.woff2": {
-    "file": "assets/Archivo-MediumItalic-DE6Ztj2S.woff2",
-    "src": "resources/fonts/Archivo-MediumItalic.woff2"
-  },
-  "resources/fonts/Archivo-Regular.ttf": {
-    "file": "assets/Archivo-Regular-CKRbU_-Z.ttf",
-    "src": "resources/fonts/Archivo-Regular.ttf"
-  },
-  "resources/fonts/Archivo-Regular.woff": {
-    "file": "assets/Archivo-Regular-DY6wIddN.woff",
-    "src": "resources/fonts/Archivo-Regular.woff"
-  },
-  "resources/fonts/Archivo-Regular.woff2": {
-    "file": "assets/Archivo-Regular-DQIH1wtA.woff2",
-    "src": "resources/fonts/Archivo-Regular.woff2"
-  },
-  "resources/fonts/Archivo-SemiBold.ttf": {
-    "file": "assets/Archivo-SemiBold-Bk9A0BBl.ttf",
-    "src": "resources/fonts/Archivo-SemiBold.ttf"
-  },
-  "resources/fonts/Archivo-SemiBold.woff": {
-    "file": "assets/Archivo-SemiBold-CGWitcEW.woff",
-    "src": "resources/fonts/Archivo-SemiBold.woff"
-  },
-  "resources/fonts/Archivo-SemiBold.woff2": {
-    "file": "assets/Archivo-SemiBold-COjjtovi.woff2",
-    "src": "resources/fonts/Archivo-SemiBold.woff2"
-  },
-  "resources/fonts/Archivo-SemiBoldItalic.ttf": {
-    "file": "assets/Archivo-SemiBoldItalic-CZrtUyBZ.ttf",
-    "src": "resources/fonts/Archivo-SemiBoldItalic.ttf"
-  },
-  "resources/fonts/Archivo-SemiBoldItalic.woff": {
-    "file": "assets/Archivo-SemiBoldItalic-BYL9m0_C.woff",
-    "src": "resources/fonts/Archivo-SemiBoldItalic.woff"
-  },
-  "resources/fonts/Archivo-SemiBoldItalic.woff2": {
-    "file": "assets/Archivo-SemiBoldItalic-ZX7960Hw.woff2",
-    "src": "resources/fonts/Archivo-SemiBoldItalic.woff2"
-  },
-  "resources/fonts/Archivo-Thin.ttf": {
-    "file": "assets/Archivo-Thin-DO21vh-L.ttf",
-    "src": "resources/fonts/Archivo-Thin.ttf"
-  },
-  "resources/fonts/Archivo-Thin.woff": {
-    "file": "assets/Archivo-Thin-D00NLiD5.woff",
-    "src": "resources/fonts/Archivo-Thin.woff"
-  },
-  "resources/fonts/Archivo-Thin.woff2": {
-    "file": "assets/Archivo-Thin-CDk3agkZ.woff2",
-    "src": "resources/fonts/Archivo-Thin.woff2"
-  },
-  "resources/fonts/Archivo-ThinItalic.ttf": {
-    "file": "assets/Archivo-ThinItalic-C1kgGyVz.ttf",
-    "src": "resources/fonts/Archivo-ThinItalic.ttf"
-  },
-  "resources/fonts/Archivo-ThinItalic.woff": {
-    "file": "assets/Archivo-ThinItalic-jyG5XwP-.woff",
-    "src": "resources/fonts/Archivo-ThinItalic.woff"
-  },
-  "resources/fonts/Archivo-ThinItalic.woff2": {
-    "file": "assets/Archivo-ThinItalic-Hpyi0OCM.woff2",
-    "src": "resources/fonts/Archivo-ThinItalic.woff2"
   },
   "resources/fonts/Archivo-Variable.ttf": {
     "file": "assets/Archivo-Variable-D2RveREB.ttf",
@@ -338,42 +134,42 @@
     "isEntry": true
   },
   "resources/scss/master-about.scss": {
-    "file": "assets/master-about-Dmin9rvy.css",
+    "file": "assets/master-about-DjAvMmXD.css",
     "src": "resources/scss/master-about.scss",
     "isEntry": true
   },
   "resources/scss/master-blog-details.scss": {
-    "file": "assets/master-blog-details-TGjbZzOo.css",
+    "file": "assets/master-blog-details-Drcj9-tv.css",
     "src": "resources/scss/master-blog-details.scss",
     "isEntry": true
   },
   "resources/scss/master-branding-agency.scss": {
-    "file": "assets/master-branding-agency-DHyBpmvt.css",
+    "file": "assets/master-branding-agency-Dzg5yEiE.css",
     "src": "resources/scss/master-branding-agency.scss",
     "isEntry": true
   },
   "resources/scss/master-common.scss": {
-    "file": "assets/master-common-BtM0yJut.css",
+    "file": "assets/master-common-D8YkFykr.css",
     "src": "resources/scss/master-common.scss",
     "isEntry": true
   },
   "resources/scss/master-contact.scss": {
-    "file": "assets/master-contact-BmblE0sc.css",
+    "file": "assets/master-contact-CdpJqaBd.css",
     "src": "resources/scss/master-contact.scss",
     "isEntry": true
   },
   "resources/scss/master-error-404.scss": {
-    "file": "assets/master-error-404-b1jgmw3G.css",
+    "file": "assets/master-error-404-BDxgACiK.css",
     "src": "resources/scss/master-error-404.scss",
     "isEntry": true
   },
   "resources/scss/master-service-details.scss": {
-    "file": "assets/master-service-details-DWchcXaM.css",
+    "file": "assets/master-service-details-CRMFNC51.css",
     "src": "resources/scss/master-service-details.scss",
     "isEntry": true
   },
   "resources/scss/master-services.scss": {
-    "file": "assets/master-services-DpIkpDg_.css",
+    "file": "assets/master-services-BH2GJ25u.css",
     "src": "resources/scss/master-services.scss",
     "isEntry": true
   }

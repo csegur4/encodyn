@@ -42,7 +42,7 @@ if (text_animation) {
     });
 }
 
-// Full Character Setup 
+// Full Character Setup
 var animation_char_come_items = document.querySelectorAll(".has_char_anim")
 animation_char_come_items.forEach((item) => {
 
@@ -365,7 +365,7 @@ animation_word_anim_items.forEach((word_anim_item) => {
 });
 
 ////////////////////////////// ///////////////////////
-// Has Fade Animation 
+// Has Fade Animation
 ////////////////////////////// ///////////////////////
 let fadeArray_items = document.querySelectorAll(".has_fade_anim");
 if (fadeArray_items.length > 0) {
@@ -433,12 +433,11 @@ if (fadeArray_items.length > 0) {
 }
 
 let mm = gsap.matchMedia();
-                
+
 mm.add("(min-width: 1024px)", () => {
 
     var pin_list = document.querySelectorAll(".section-item")
     pin_list.forEach((item) => {
-        console.log(item)
         gsap.to(item, {
             scrollTrigger: {
                 trigger: item,
