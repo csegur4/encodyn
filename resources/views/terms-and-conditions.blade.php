@@ -25,25 +25,6 @@
                     </div>
                 </div>
                 <div class="blogdetails__wrapper">
-                    <div class="blogdetails-contentleft">
-                        <ul class="blogdetails-overview dark-overview has_fade_anim" data-fade-from="left">
-                            <li>
-                                <i class="fa-solid fa-chart-simple"></i>
-                                <span>247 <br>
-                          Views </span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-share-nodes"></i>
-                                <span>14 <br>
-                          Shares</span>
-                            </li>
-                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-
                     <div class="blogdetails-contentright">
                         <article class="blog-details-fullBody">
                             <div class="text-wrapper">

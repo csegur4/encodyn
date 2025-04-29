@@ -25,25 +25,6 @@
                     </div>
                 </div>
                 <div class="blogdetails__wrapper">
-                    <div class="blogdetails-contentleft">
-                        <ul class="blogdetails-overview dark-overview has_fade_anim" data-fade-from="left">
-                            <li>
-                                <i class="fa-solid fa-chart-simple"></i>
-                                <span>247 <br>
-                          Views </span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-share-nodes"></i>
-                                <span>14 <br>
-                          Shares</span>
-                            </li>
-                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-
                     <div class="blogdetails-contentright">
                         <article class="blog-details-fullBody">
                             <div class="text-wrapper">
@@ -120,7 +101,7 @@
                             <div class="content-block">
                                 <h2 class="content-title has_fade_anim">Contact Us</h2>
                                 <div class="text-wrapper">
-                                    <p class="text has_fade_anim">For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at <a href="{{ env('APP_COMPANY_NAME') }}">{{ env('APP_COMPANY_EMAIL') }}</a></p>
+                                    <p class="text has_fade_anim">For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at <a href="mailto:{{ env('APP_COMPANY_EMAIL') }}">{{ env('APP_COMPANY_EMAIL') }}</a></p>
                                 </div>
                             </div>
                         </article>

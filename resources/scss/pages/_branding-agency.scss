@@ -1864,26 +1864,28 @@
         position: relative;
 
         .text {
-            font-size: 30px;
+            font-family: var(--font_instrumentsans);
+            font-size: 40px;
             line-height: 1;
-            max-width: 370px;
+            max-width: 470px;
             position: absolute;
             inset-inline-start: 40%;
             top: 70px;
+            font-weight: 600;
 
             @media #{$xl} {
-                font-size: 26px;
+                font-size: 30px;
             }
 
             @media #{$lg} {
-                font-size: 22px;
+                font-size: 28px;
                 max-width: 280px;
                 top: 50px;
             }
 
             @media #{$md} {
-                font-size: 18px;
-                max-width: 230px;
+                font-size: 28px;
+                max-width: 290px;
                 top: 40px;
             }
 
