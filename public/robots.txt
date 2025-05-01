@@ -1,2 +1,6 @@
 User-agent: *
 Disallow:
+
+User-agent: Googlebot
+Disallow: /terms-conditions
+Disallow: /privacy-policy

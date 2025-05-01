@@ -300,9 +300,9 @@ digital transformation, business growth, technology solutions, software engineer
                         <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
                     </div>
                     <p class="reviews">(5+ reviews)</p>
-                    <p class="text">Helping world-class
-                        company by creative
-                        design.</p>
+                    <p class="text">Empowering
+                        businesses through custom
+                        solutions.</p>
                 </div>
                 <div class="testimonial-wrapper">
                     <div class="swiper testimonial-slider">

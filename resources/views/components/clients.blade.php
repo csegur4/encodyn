@@ -35,6 +35,10 @@
                         <img class="show-light" src="{{ asset('imgs/client/purshann.webp')}}"
                              alt="Purshann logo - retail client of Encodyn" style="width: 100px">
                     </div>
+                    <div class="client-box">
+                        <img class="show-light" src="{{ asset('imgs/client/my-car-wheel.webp')}}"
+                             alt="Website redesign - retail client of Encodyn">
+                    </div>
                 </div>
             </div>
         </div>
