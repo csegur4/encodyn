@@ -300,9 +300,14 @@ digital transformation, business growth, technology solutions, software engineer
                         <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
                     </div>
                     <p class="reviews">(5+ reviews)</p>
-                    <p class="text">Empowering
+                    <p class="text pb-3">Empowering
                         businesses through custom
                         solutions.</p>
+                    <!-- TrustBox widget - Review Collector -->
+                    <div class="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="6813793448b69db550e1c9e6" data-style-height="52px" data-style-width="100%">
+                        <a href="https://www.trustpilot.com/review/encodyn.com" target="_blank" rel="noopener">Trustpilot</a>
+                    </div>
+                    <!-- End TrustBox widget -->
                 </div>
                 <div class="testimonial-wrapper">
                     <div class="swiper testimonial-slider">
@@ -324,8 +329,7 @@ digital transformation, business growth, technology solutions, software engineer
                                         </div>
                                         <div class="author">
                                             <div class="meta">
-                                                <h3 class="name">Jaiser Martinez</h3>
-                                                <span class="post">Designer, Air Q Contractors</span>
+                                                <h3 class="name">Air Q Contractors</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -339,16 +343,14 @@ digital transformation, business growth, technology solutions, software engineer
                                                 <img class="quote-icon" src="{{ asset('imgs/icon/quote-6.webp')}}" alt="Quote Icon">
                                             </div>
                                             <div class="text-wrapper">
-                                                <p class="text">The team delivers <span>high-quality</span> and thoughtful work.
-                                                    They've
-                                                    been a <span>great
-                                      partner</span> through out the process. They simply go the extra mile!</p>
+                                                <p class="text">As a small family business, we trusted <span>Encodyn</span> to boost our online <span>presence</span> a year ago,
+                                                    and they delivered! The <span>rebranded</span> website, community-building tools,
+                                                    and <span>user-friendly</span> designs have been game-changers (...)</p>
                                             </div>
                                         </div>
                                         <div class="author">
                                             <div class="meta">
-                                                <h3 class="name">Yosvany Diaz</h3>
-                                                <span class="post">CEO, Consultorio Medico Bellaire</span>
+                                                <h3 class="name"><a href="https://www.trustpilot.com/reviews/6815392f0911bb951b278ca3">M E Auto Accessories<i class="fas fa-external-link-alt ml-5"></i></a></h3>
                                             </div>
                                         </div>
                                     </div>
