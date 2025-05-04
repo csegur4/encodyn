@@ -21,6 +21,6 @@ class SitemapController extends Controller
         $content = view('sitemap', compact('urls'));
 
         return response($content, 200)
-            ->header('Content-Type', 'text/xml');
+            ->header('Content-Type', 'text/xml; charset=UTF-8');
     }
 }
