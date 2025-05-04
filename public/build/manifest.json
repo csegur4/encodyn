@@ -133,8 +133,44 @@
     "src": "resources/js/app.js",
     "isEntry": true
   },
-  "style.css": {
-    "file": "assets/style-D5svNbzX.css",
-    "src": "style.css"
+  "resources/scss/master-about.scss": {
+    "file": "assets/master-about-DjAvMmXD.css",
+    "src": "resources/scss/master-about.scss",
+    "isEntry": true
+  },
+  "resources/scss/master-blog-details.scss": {
+    "file": "assets/master-blog-details-Drcj9-tv.css",
+    "src": "resources/scss/master-blog-details.scss",
+    "isEntry": true
+  },
+  "resources/scss/master-branding-agency.scss": {
+    "file": "assets/master-branding-agency-Dzg5yEiE.css",
+    "src": "resources/scss/master-branding-agency.scss",
+    "isEntry": true
+  },
+  "resources/scss/master-common.scss": {
+    "file": "assets/master-common-D8YkFykr.css",
+    "src": "resources/scss/master-common.scss",
+    "isEntry": true
+  },
+  "resources/scss/master-contact.scss": {
+    "file": "assets/master-contact-CdpJqaBd.css",
+    "src": "resources/scss/master-contact.scss",
+    "isEntry": true
+  },
+  "resources/scss/master-error-404.scss": {
+    "file": "assets/master-error-404-BDxgACiK.css",
+    "src": "resources/scss/master-error-404.scss",
+    "isEntry": true
+  },
+  "resources/scss/master-service-details.scss": {
+    "file": "assets/master-service-details-CRMFNC51.css",
+    "src": "resources/scss/master-service-details.scss",
+    "isEntry": true
+  },
+  "resources/scss/master-services.scss": {
+    "file": "assets/master-services-BH2GJ25u.css",
+    "src": "resources/scss/master-services.scss",
+    "isEntry": true
   }
 }
