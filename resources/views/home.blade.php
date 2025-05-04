@@ -321,15 +321,20 @@ digital transformation, business growth, technology solutions, software engineer
                                                      alt="Testimonial quote icon for client feedback">
                                             </div>
                                             <div class="text-wrapper">
-                                                <p class="text">As a startup that moves quickly and often, they have been able to roll
-                                                    with the <span>punches</span> at a high standard. Whether for our
-                                                    <span>marketing</span> or product design needs
+                                                <p class="text">They built a fully <span>custom solution</span> tailored specifically to our <span>contracting business</span>.
+                                                    It was not a generic platform; it was made just for us and fit our needs perfectly.
+                                                    Highly recommend them to any business looking for a unique, made-to-measure <span>software solution.</span>
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="author">
                                             <div class="meta">
-                                                <h3 class="name">Air Q Contractors</h3>
+                                                <h3 class="name">
+                                                    <a href="https://www.trustpilot.com/reviews/6816df13a7365817f5e34f10">
+                                                        Air Q Contractors
+                                                        <i class="fas fa-external-link-alt ml-5"></i>
+                                                    </a>
+                                                </h3>
                                             </div>
                                         </div>
                                     </div>
@@ -345,12 +350,43 @@ digital transformation, business growth, technology solutions, software engineer
                                             <div class="text-wrapper">
                                                 <p class="text">As a small family business, we trusted <span>Encodyn</span> to boost our online <span>presence</span> a year ago,
                                                     and they delivered! The <span>rebranded</span> website, community-building tools,
-                                                    and <span>user-friendly</span> designs have been game-changers (...)</p>
+                                                    and <span>user-friendly</span> designs have been game-changers.
+                                                    We're excited to continue working with them to take our business to the <span>next level.</span> (...)</p>
                                             </div>
                                         </div>
                                         <div class="author">
                                             <div class="meta">
-                                                <h3 class="name"><a href="https://www.trustpilot.com/reviews/6815392f0911bb951b278ca3">M E Auto Accessories<i class="fas fa-external-link-alt ml-5"></i></a></h3>
+                                                <h3 class="name">
+                                                    <a href="https://www.trustpilot.com/reviews/6815392f0911bb951b278ca3">
+                                                        M E Auto Accessories
+                                                        <i class="fas fa-external-link-alt ml-5"></i>
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <div class="content">
+                                        <div class="content-top">
+                                            <div class="icon">
+                                                <img class="quote-icon" src="{{ asset('imgs/icon/quote-6.webp')}}" alt="Quote Icon">
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <p class="text">As the owner of Los Vecinos Bakery I am completely <span>satisfied</span> with the <span>design and implementation</span> of our new website.
+                                                    The design perfectly captures the authentic essence of our <span>family-owned business</span> while offering intuitive navigation (...)
+                                            </div>
+                                        </div>
+                                        <div class="author">
+                                            <div class="meta">
+                                                <h3 class="name">
+                                                    <a href="https://www.trustpilot.com/reviews/681778b8f59e60ab86a36891">
+                                                        Los Vecinos Bakery
+                                                        <i class="fas fa-external-link-alt ml-5"></i>
+                                                    </a>
+                                                </h3>
                                             </div>
                                         </div>
                                     </div>
