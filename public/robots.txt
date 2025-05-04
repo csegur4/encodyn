@@ -4,3 +4,5 @@ Disallow:
 User-agent: Googlebot
 Disallow: /terms-conditions
 Disallow: /privacy-policy
+
+Sitemap: https://encodyn.com/sitemap.xml
