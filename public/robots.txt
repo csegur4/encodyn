@@ -1,8 +1,4 @@
 User-agent: *
 Disallow:
 
-User-agent: Googlebot
-Disallow: /terms-and-conditions
-Disallow: /privacy-policy
-
 Sitemap: https://encodyn.com/sitemap.xml
