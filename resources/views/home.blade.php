@@ -244,16 +244,16 @@ digital transformation, business growth, technology solutions, software engineer
                 <div class=""></div>
                 <div class="content-last">
                     <div class="text-wrapper">
-                        <p class="text has_text_move_anim">We are delivering powerful, custom-built software solutions that drive measurable impact for businesses aiming high.
-                            Discover what we can build for you.</p>
+                        <p class="text has_text_move_anim">Our portfolio showcases how our custom software development has revolutionized
+                            operations for forward-thinking companies across industries.</p>
                     </div>
                     <div class="btn-wrapper has_fade_anim" data-fade-from="left">
                         <div class="wc-btn-group">
-                            <a class="wc-btn wc-btn-circle" href="{{ route('services') }}">
+                            <a class="wc-btn wc-btn-circle" href="{{ route('portfolio') }}">
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
-                            <a class="wc-btn wc-btn-primary" href="{{ route('services') }}">View all services</a>
-                            <a class="wc-btn wc-btn-circle" href="{{ route('services') }}">
+                            <a class="wc-btn wc-btn-primary" href="{{ route('portfolio') }}">Explore Our Portfolio</a>
+                            <a class="wc-btn wc-btn-circle" href="{{ route('portfolio') }}">
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
