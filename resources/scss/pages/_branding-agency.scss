@@ -796,6 +796,8 @@
         color: var(--white);
     }
 
+
+
     .services-wrapper-box {
         margin-top: 90px;
 
@@ -812,6 +814,19 @@
         display: grid;
         gap: 20px;
         grid-template-columns: repeat(4, 1fr);
+
+        i {
+            transform: rotate(-45deg);
+            color: #f0f7f8;
+            font-size: 15px;
+            margin-left: 5px;
+            transition: all 0.3s ease;
+        }
+        .title:hover i {
+            transform: rotate(0deg);
+            color: #a4a4a4;
+        }
+
 
         @media #{$lg} {
             grid-template-columns: repeat(2, 1fr);
@@ -863,7 +878,7 @@
 
 .service-box {
     background-color: #1C1C1C;
-    padding: 47px 40px 46px;
+    padding: 47px 30px 46px;
     border-radius: 20px;
     transition: all 0.5s;
     display: flex;
@@ -905,6 +920,9 @@
         line-height: 1.2;
         color: var(--white);
         margin-top: 56px;
+        display: flex;
+        align-items: center;
+
 
         @media #{$xxl} {
             margin-top: 46px;

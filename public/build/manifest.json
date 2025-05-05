@@ -144,7 +144,7 @@
     "isEntry": true
   },
   "resources/scss/master-branding-agency.scss": {
-    "file": "assets/master-branding-agency-Dzg5yEiE.css",
+    "file": "assets/master-branding-agency-CnbKTqzD.css",
     "src": "resources/scss/master-branding-agency.scss",
     "isEntry": true
   },
@@ -171,6 +171,11 @@
   "resources/scss/master-services.scss": {
     "file": "assets/master-services-BH2GJ25u.css",
     "src": "resources/scss/master-services.scss",
+    "isEntry": true
+  },
+  "resources/scss/master-works.scss": {
+    "file": "assets/master-works-fjmntr47.css",
+    "src": "resources/scss/master-works.scss",
     "isEntry": true
   }
 }

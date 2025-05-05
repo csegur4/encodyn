@@ -36,6 +36,10 @@ Route::get('/services/brand-design', function () {
     return view('/services/brand-design');
 })->name('services.brand-design');
 
+Route::get('/portfolio', function () {
+    return view('portfolio');
+})->name('portfolio');
+
 Route::get('/privacy-policy', function () {
     return view('privacy-policy');
 })->name('privacy-policy');

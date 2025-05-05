@@ -5,6 +5,7 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
+                'resources/scss/master-works.scss',
                 'resources/scss/master-about.scss',
                 'resources/scss/master-branding-agency.scss',
                 'resources/scss/master-contact.scss',

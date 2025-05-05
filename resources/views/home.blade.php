@@ -106,7 +106,7 @@ digital transformation, business growth, technology solutions, software engineer
                                          alt="Custom software development and API integration services icon">
                                 </div>
                                 <div class="content">
-                                    <h3 class="title">Software Development </h3>
+                                    <h3 class="title">Software Development <i class="fa-solid fa-arrow-right"></i></h3>
                                     <p class="text">We develop custom software solutions with seamless API integration
                                         capabilities to maximize your business efficiency and scalability.</p>
                                 </div>
@@ -121,9 +121,9 @@ digital transformation, business growth, technology solutions, software engineer
                                          alt="Responsive web design and development services icon">
                                 </div>
                                 <div class="content">
-                                    <h3 class="title">Web Design</h3>
+                                    <h3 class="title">Web Design <i class="fa-solid fa-arrow-right"></i></h3>
                                     <p class="text">We create responsive, user-centered websites that effectively
-                                        showcase your brand and convert visitors into customers.</p>
+                                        showcase your brand and convert visitors into customers. </p>
                                 </div>
                             </div>
                         </a>
@@ -136,7 +136,7 @@ digital transformation, business growth, technology solutions, software engineer
                                          alt="SEO optimization and search ranking improvement services icon">
                                 </div>
                                 <div class="content">
-                                    <h3 class="title">SEO Optimization</h3>
+                                    <h3 class="title">SEO Optimization <i class="fa-solid fa-arrow-right"></i></h3>
                                     <p class="text">We implement data-driven SEO strategies to boost your search rankings,
                                         increase organic traffic, and maximize online visibility.</p>
                                 </div>
@@ -151,7 +151,7 @@ digital transformation, business growth, technology solutions, software engineer
                                          alt="Brand identity design and visual communication services icon">
                                 </div>
                                 <div class="content">
-                                    <h3 class="title">Brand Design</h3>
+                                    <h3 class="title">Brand Design <i class="fa-solid fa-arrow-right"></i></h3>
                                     <p class="text">We craft distinctive visual identities that communicate your brand
                                         values and create meaningful connections with your target audience.</p>
                                 </div>
@@ -162,7 +162,7 @@ digital transformation, business growth, technology solutions, software engineer
             </div>
             <div class="info-text has_fade_anim" data-fade-from="left">
                 <p class="text">Save valuable time by trusting experts to find the right solution. <br>
-                    <a class="wc-btn wc-btn-underline" href="{{ route('contact') }}">Contact us now</a>
+                    <a class="wc-btn wc-btn-underline" href="{{ route('services') }}">Explore our services</a>
                 </p>
             </div>
         </div>

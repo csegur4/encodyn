@@ -89,6 +89,7 @@
                     <li><a href="{{ route('services.web-design') }}" class="mobile-submenu">Web Design</a></li>
                     <li><a href="{{ route('services.seo-optimization') }}" class="mobile-submenu">SEO Optimization</a></li>
                     <li><a href="{{ route('services.brand-design') }}" class="mobile-submenu">Brand Design</a></li>
+                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
                     <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </nav>
@@ -135,6 +136,7 @@
                                 <li><a href="{{ route('services.brand-design') }}">Brand Design</a></li>
                             </ul>
                         </li>
+                        <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
                         <li><a href="{{ route('contact') }}">Contact</a></li>
                     </ul>
                 </nav>
@@ -187,13 +189,14 @@
                             <ul class="footer-nav-list">
                                 <li><a href="{{ route('home') }}">Home</a></li>
                                 <li><a href="{{ route('services') }}">Services</a></li>
+                                <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
                                 <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 <li><a href="{{ route('privacy-policy') }}" rel="nofollow">Privacy Policy</a></li>
                                 <li><a href="{{ route('terms-and-conditions') }}" rel="nofollow">Terms and Conditions</a></li>
                             </ul>
                         </div>
                         <div class="footer-widget-wrapper">
-                            <h2 class="title">Service</h2>
+                            <h2 class="title">Services</h2>
                             <ul class="footer-nav-list">
                                 <li><a href="{{ route('services.software-development') }}">Software Development</a></li>
                                 <li><a href="{{ route('services.web-design') }}">Web Design</a></li>

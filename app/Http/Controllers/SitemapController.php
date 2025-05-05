@@ -15,6 +15,7 @@ class SitemapController extends Controller
             url('/services/software-development'),
             url('/services/seo-optimization'),
             url('/services/brand-design'),
+            url('/portfolio'),
             url('/contact-us'),
         ];
 
