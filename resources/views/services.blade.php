@@ -200,7 +200,7 @@ Custom digital solutions for businesses seeking measurable growth and ROI.')
                         <!-- Pricing Box 1 -->
                         <div class="pricing-box has_fade_anim" data-delay="0.15">
                             <span class="tag">Starter</span>
-                            <h3 class="price">$6,500</h3>
+                            <h3 class="price">$2,999</h3>
                             <div class="feature-list pb-4">
                                 <ul>
                                     <li>
