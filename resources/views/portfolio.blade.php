@@ -52,7 +52,7 @@ branding case studies, business growth case studies, development portfolio, digi
                 <div class="works-wrapper-box">
                     <div class="works-wrapper">
                         <div class="has_fade_anim">
-                            <a href="#">
+                            <a href="https://mycarwheel.com/" target="_blank" rel="noopener noreferrer">
                                 <div class="work-box">
                                     <div class="thumb">
                                         <img src="{{ asset('imgs/works/mycarwheel.webp')}}"
@@ -68,7 +68,7 @@ branding case studies, business growth case studies, development portfolio, digi
                             </a>
                         </div>
                         <div class="has_fade_anim">
-                            <a href="#">
+                            <a href="https://losvecinosbakery.com/" target="_blank" rel="noopener noreferrer">
                                 <div class="work-box">
                                     <div class="thumb">
                                         <img src="{{ asset('imgs/works/los-vecinos-bakery.webp')}}"
@@ -84,7 +84,7 @@ branding case studies, business growth case studies, development portfolio, digi
                             </a>
                         </div>
                         <div class="has_fade_anim">
-                            <a href="#">
+                            <a href="https://airqcontractors.com/" target="_blank" rel="noopener noreferrer">
                                 <div class="work-box">
                                     <div class="thumb">
                                         <img src="{{ asset('imgs/works/airq.webp')}}"
@@ -100,7 +100,7 @@ branding case studies, business growth case studies, development portfolio, digi
                             </a>
                         </div>
                         <div class="has_fade_anim">
-                            <a href="#">
+                            <a href="https://www.consultoriomedicobellaire.com/" target="_blank" rel="noopener noreferrer">
                                 <div class="work-box">
                                     <div class="thumb">
                                         <img src="{{ asset('imgs/works/consultoriomedico.webp')}}"
@@ -116,7 +116,7 @@ branding case studies, business growth case studies, development portfolio, digi
                             </a>
                         </div>
                         <div class="has_fade_anim">
-                            <a class="large" href="#">
+                            <a class="large" href="https://www.elitepharmacyinc.com/" target="_blank" rel="noopener noreferrer">
                                 <div class="work-box">
                                     <div class="thumb">
                                         <img src="{{ asset('imgs/works/elitepharmacy.webp')}}"
