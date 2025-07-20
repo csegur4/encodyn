@@ -25,6 +25,75 @@ digital transformation, business growth, technology solutions, software engineer
     <!-- WhatsApp / SMS Preview -->
     <meta property="og:site_name" content="Encodyn">
     <meta property="og:locale" content="en_US">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "{{ url('/') }}",
+        "sameAs": ["https://linkedin.com/company/encodyn", "https://www.instagram.com/encodyn"],
+        "logo": "{{ asset('imgs/encodyn-logo-black.webp') }}",
+        "name": "Encodyn",
+        "legalName": "Encodyn Inc.",
+        "description": "Encodyn builds powerful custom software solutions for forward-thinking businesses, solving problems, creating value, and driving growth through innovative software development and web design services.",
+        "email": "services@encodyn.com",
+        "telephone": "+1-813-205-9755",
+        "areaServed": {
+            "@type": "Country",
+            "name": "United States"
+        },
+        "foundingDate": "2025",
+        "naics": "541511",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Air Q Contractors"
+                },
+                "reviewBody": "They built a fully custom solution tailored specifically to our contracting business. It was not a generic platform; it was made just for us and fit our needs perfectly. Highly recommend them to any business looking for a unique, made-to-measure software solution.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "url": "https://www.trustpilot.com/reviews/6816df13a7365817f5e34f10"
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Organization",
+                    "name": "M E Auto Accessories"
+                },
+                "reviewBody": "As a small family business, we trusted Encodyn to boost our online presence a year ago, and they delivered! The rebranded website, community-building tools, and user-friendly designs have been game-changers. We're excited to continue working with them to take our business to the next level.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "url": "https://www.trustpilot.com/reviews/6815392f0911bb951b278ca3"
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Los Vecinos Bakery"
+                },
+                "reviewBody": "As the owner of Los Vecinos Bakery I am completely satisfied with the design and implementation of our new website. The design perfectly captures the authentic essence of our family-owned business while offering intuitive navigation.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "url": "https://www.trustpilot.com/reviews/681778b8f59e60ab86a36891"
+            }
+        ]
+    }
+    </script>
 @endsection
 
 @push('vite_assets')

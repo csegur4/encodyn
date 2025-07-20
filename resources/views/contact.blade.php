@@ -50,7 +50,6 @@ We are ready to answer your questions and create custom solutions for your busin
                             <p class="text">Ready to transform your business with custom digital solutions? We're here to help.</p>
                         </div>
                         <ul class="contact-list">
-                            <li><a href="tel:8133300252">(813) 330-0252</a></li>
                             <li><a href="mailto:services@encodyn.com">services@encodyn.com</a></li>
                             <li>Clifton St <br>
                                 Tampa, FL, US 33603</li>

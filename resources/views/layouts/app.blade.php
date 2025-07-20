@@ -97,7 +97,6 @@
         <div class="">
             <div class="offcanvas-3__meta mb-145 pt-5">
                 <ul>
-                    <li><a href="tel:8133300252" class="unnerline"><u>(813) 330-0252</u></a></li>
                     <li><a href="mailto:{{ env('APP_COMPANY_EMAIL') }}">{{ env('APP_COMPANY_EMAIL') }}</a></li>
                     <li>Tampa, Florida, 33603, USA</li>
                 </ul>
