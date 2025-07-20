@@ -224,7 +224,7 @@
                     <div class="container large">
                         <div class="copyright-area-inner">
                             <div class="copyright-text">
-                                <p class="text text-center justify-content-center">© {{ date('Y') }} <a href="https://www.encodyn.com">Encodyn,</a> Inc.
+                                <p class="text text-center justify-content-center">© {{ date('Y') }} <a href="https://encodyn.com">Encodyn,</a> Inc.
                                 </p>
                             </div>
                         </div>
