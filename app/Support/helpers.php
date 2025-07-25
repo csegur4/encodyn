@@ -12,6 +12,6 @@ if (!function_exists('img_optimized')) {
             return "{$host}/{$cleanPath}";
         }
 
-        return "{$host}/cdn-cgi/image/format=auto,quality=80,sharpen=1,fit=scale-down,metadata=copyright/{$cleanPath}";
+        return "{$host}/cdn-cgi/image/format=auto,quality=80/{$cleanPath}";
     }
 }
