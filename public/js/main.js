@@ -41,7 +41,7 @@
   $(document).ready(function () {
     $('#container').addClass('loaded');
     if ($('#container').hasClass('loaded')) {
-      $('#preloader').delay(500).queue(function () {
+      $('#preloader').delay(300).queue(function () {
         $(this).remove();
       });
     }

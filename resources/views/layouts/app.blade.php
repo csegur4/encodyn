@@ -33,15 +33,6 @@
     <div id="container" class="container-preloader">
         <div class="animation-preloader">
             <div class="spinner"></div>
-            <div class="txt-loading">
-                <span data-text="E" class="characters">E</span>
-                <span data-text="n" class="characters">n</span>
-                <span data-text="c" class="characters">c</span>
-                <span data-text="o" class="characters">o</span>
-                <span data-text="d" class="characters">d</span>
-                <span data-text="y" class="characters">y</span>
-                <span data-text="n" class="characters">n</span>
-            </div>
         </div>
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
