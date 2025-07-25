@@ -23,7 +23,7 @@
 (function ($) {
   "use strict";
 
-  // 01. Sticky 
+  // 01. Sticky
   let header = document.querySelector('header');
   window.addEventListener('scroll', () => {
     if (window.scrollY > 500) {
@@ -41,7 +41,7 @@
   $(document).ready(function () {
     $('#container').addClass('loaded');
     if ($('#container').hasClass('loaded')) {
-      $('#preloader').delay(1000).queue(function () {
+      $('#preloader').delay(500).queue(function () {
         $(this).remove();
       });
     }
@@ -133,7 +133,7 @@
     meanMenuCloseSize: '28px',
   });
 
-  // meanmenu activition 
+  // meanmenu activition
   $('.main-menu').meanmenu({
     meanScreenWidth: "1199",
     meanMenuContainer: '.offcanvas__menu-wrapper',
@@ -249,7 +249,7 @@
         }
       })
 
-      // Main Cursor Moving 
+      // Main Cursor Moving
       tl.to(".cursor1", {
         ease: "power2.out"
       })
