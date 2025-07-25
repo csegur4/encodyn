@@ -9,13 +9,13 @@ Custom digital solutions for businesses seeking measurable growth and ROI.')
     <meta property="og:description" content="Transform your business with Encodyn's custom digital solutions - from software development and web design to SEO and brand identity.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:image" content="{{ asset('imgs/encodyn-social-media.webp') }}">
+    <meta property="og:image" content="{{ img_optimized('imgs/encodyn-social-media.webp') }}">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Professional Digital Services | Encodyn">
     <meta name="twitter:description" content="Transform your business with Encodyn's custom digital solutions - from software development and web design to SEO and brand identity.">
-    <meta name="twitter:image" content="{{ asset('imgs/encodyn-social-media.webp') }}">
+    <meta name="twitter:image" content="{{ img_optimized('imgs/encodyn-social-media.webp') }}">
 
     <!-- WhatsApp -->
     <meta property="og:site_name" content="Encodyn">
@@ -48,11 +48,11 @@ Custom digital solutions for businesses seeking measurable growth and ROI.')
                             digital solutions that drive business growth and user satisfaction.</p>
                     </div>
                     <div class="icon has_fade_anim" data-on-scroll="0">
-                        <img class="show-light" src="{{ asset('imgs/shape/img-s-82.webp')}}" alt="image">
+                        <img class="show-light" src="{{ img_optimized('imgs/shape/img-s-82.webp')}}" alt="image">
                     </div>
                 </div>
                 <div class="thumb">
-                    <img src="{{ asset('imgs/services/services.webp')}}" class="has_fade_anim" data-fade-offset="0"
+                    <img src="{{ img_optimized('imgs/services/services.webp')}}" class="has_fade_anim" data-fade-offset="0"
                          data-delay="0.45" alt="image">
                 </div>
             </div>
@@ -157,11 +157,11 @@ Custom digital solutions for businesses seeking measurable growth and ROI.')
     <section class="about-area container-hd">
         <div class="about-area-inner">
             <div class="thumb">
-                <img src="{{ asset('imgs/services/services-bg.webp')}}" alt="gallery image">
+                <img src="{{ img_optimized('imgs/services/services-bg.webp')}}" alt="gallery image">
             </div>
             <div class="section-content">
                 <div class="bg">
-                    <img src="{{ asset('imgs/services/pro-level-agency.webp')}}" alt="image">
+                    <img src="{{ img_optimized('imgs/services/pro-level-agency.webp')}}" alt="image">
                 </div>
                 <div class="section-title-wrapper">
                     <div class="title-wrapper">
@@ -204,27 +204,27 @@ Custom digital solutions for businesses seeking measurable growth and ROI.')
                             <div class="feature-list pb-4">
                                 <ul>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Single service focus
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Standard implementation
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Basic optimizations
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         3 months support
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Standard reporting
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Email support
                                     </li>
                                 </ul>
@@ -240,27 +240,27 @@ Custom digital solutions for businesses seeking measurable growth and ROI.')
                             <div class="feature-list pb-4">
                                 <ul>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Multiple service integration
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Advanced implementation
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Performance optimization
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         6 months priority support
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Detailed analytics
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Phone & email support
                                     </li>
                                 </ul>
@@ -276,27 +276,27 @@ Custom digital solutions for businesses seeking measurable growth and ROI.')
                             <div class="feature-list pb-4">
                                 <ul>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Full-service solution
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Custom implementation
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Enterprise-grade security
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         12 months dedicated support
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Executive reporting
                                     </li>
                                     <li>
-                                        <img class="show-light" src="{{ asset('imgs/icon/check-2.webp')}}" alt="icon image">
+                                        <img class="show-light" src="{{ img_optimized('imgs/icon/check-2.webp')}}" alt="icon image">
                                         Dedicated account manager
                                     </li>
                                 </ul>

@@ -9,13 +9,13 @@ We are ready to answer your questions and create custom solutions for your busin
     <meta property="og:description" content="Ready to transform your business? Contact our team today to discuss your project needs and discover how our digital solutions can help you succeed.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:image" content="{{ asset('imgs/contact-og.webp') }}">
+    <meta property="og:image" content="{{ img_optimized('imgs/contact-og.webp') }}">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Contact Encodyn | Get Started Today">
     <meta name="twitter:description" content="Ready to transform your business? Contact our team today to discuss your project needs and discover how our digital solutions can help you succeed.">
-    <meta name="twitter:image" content="{{ asset('imgs/contact-og.webp') }}">
+    <meta name="twitter:image" content="{{ img_optimized('imgs/contact-og.webp') }}">
 
     <!-- WhatsApp -->
     <meta property="og:site_name" content="Encodyn">

@@ -9,13 +9,13 @@ services deliver user-focused, visually compelling digital experiences.')
     <meta property="og:description" content="Transform your digital presence with visually stunning, strategically crafted websites that engage visitors and drive measurable business results.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:image" content="{{ asset('imgs/services/web-design-services.webp') }}">
+    <meta property="og:image" content="{{ img_optimized('imgs/services/web-design-services.webp') }}">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Professional Web Design Services | Encodyn">
     <meta name="twitter:description" content="Transform your digital presence with visually stunning, strategically crafted websites that engage visitors and drive measurable business results.">
-    <meta name="twitter:image" content="{{ asset('imgs/services/web-design-services.webp') }}">
+    <meta name="twitter:image" content="{{ img_optimized('imgs/services/web-design-services.webp') }}">
 
     <!-- WhatsApp -->
     <meta property="og:site_name" content="Encodyn">
@@ -36,7 +36,7 @@ services deliver user-focused, visually compelling digital experiences.')
 <section class="service-details-area">
     <div class="container">
         <div class="thumb-main">
-            <img src="{{ asset('imgs/services/web-design-services.webp')}}" class="has_fade_anim" data-delay="0.30"
+            <img src="{{ img_optimized('imgs/services/web-design-services.webp')}}" class="has_fade_anim" data-delay="0.30"
                  data-fade-offset="0"
                  alt="Professional web design services showcasing responsive website layouts on multiple devices">
             @include('components.social-media')
@@ -119,12 +119,12 @@ services deliver user-focused, visually compelling digital experiences.')
             </div>
             <div class="section-content">
                 <div class="shape has_fade_anim">
-                    <img class="show-light" src="{{ asset('imgs/shape/img-s-84.webp')}}"
+                    <img class="show-light" src="{{ img_optimized('imgs/shape/img-s-84.webp')}}"
                          alt="Decorative design element enhancing the web design services section">
                 </div>
                 <div class="content-last">
                     <div class="thumb has_fade_anim">
-                        <img class="main-image" src="{{ asset('imgs/services/web-design-digital-presence.webp')}}"
+                        <img class="main-image" src="{{ img_optimized('imgs/services/web-design-digital-presence.webp')}}"
                              alt="Digital presence transformation through strategic web design showing website mockups and UI elements">
                     </div>
                     <div class="text-wrapper has_fade_anim">
@@ -155,7 +155,7 @@ services deliver user-focused, visually compelling digital experiences.')
         <div class="faq-area-inner section-spacing-top">
             <div class="section-content">
                 <div class="thumb">
-                    <img src="{{ asset('imgs/services/web-design-layers.webp')}}" class="has_fade_anim" data-fade-from="left"
+                    <img src="{{ img_optimized('imgs/services/web-design-layers.webp')}}" class="has_fade_anim" data-fade-from="left"
                          alt="Web design process layers illustrating UI/UX principles and development stages">
                 </div>
                 <div class="content-last has_fade_anim">

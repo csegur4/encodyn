@@ -12,7 +12,7 @@ digital transformation, business growth, technology solutions, software engineer
     <meta property="og:title" content="Encodyn | Custom Software & Web Design Solutions">
     <meta property="og:description" content="Encodyn creates custom software solutions, responsive websites,
                     and SEO strategies that solve problems and drive growth for forward-thinking businesses.">
-    <meta property="og:image" content="{{ asset('imgs/encodyn-social-media.webp') }}">
+    <meta property="og:image" content="{{ img_optimized('imgs/encodyn-social-media.webp') }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -20,7 +20,7 @@ digital transformation, business growth, technology solutions, software engineer
     <meta property="twitter:title" content="Encodyn | Custom Software & Web Design Solutions">
     <meta property="twitter:description" content="Encodyn creates custom software solutions, responsive websites,
                         and SEO strategies that solve problems and drive growth for forward-thinking businesses.">
-    <meta property="twitter:image" content="{{ asset('imgs/encodyn-social-media.webp') }}">
+    <meta property="twitter:image" content="{{ img_optimized('imgs/encodyn-social-media.webp') }}">
 
     <!-- WhatsApp / SMS Preview -->
     <meta property="og:site_name" content="Encodyn">
@@ -32,7 +32,7 @@ digital transformation, business growth, technology solutions, software engineer
         "@type": "Organization",
         "url": "{{ url('/') }}",
         "sameAs": ["https://linkedin.com/company/encodyn", "https://www.instagram.com/encodyn"],
-        "logo": "{{ asset('imgs/encodyn-logo-black.webp') }}",
+        "logo": "{{ img_optimized('imgs/encodyn-logo-black.webp') }}",
         "name": "Encodyn",
         "legalName": "Encodyn Inc.",
         "description": "Encodyn builds powerful custom software solutions for forward-thinking businesses, solving problems, creating value, and driving growth through innovative software development and web design services.",
@@ -108,7 +108,7 @@ digital transformation, business growth, technology solutions, software engineer
 <!-- hero area start  -->
 <section class="hero-area section-item">
     <div class="area-bg">
-        <img src="{{ asset('imgs/encodyn-main-header.webp')}}" alt="Encodyn digital solutions showcase featuring custom software development and web design services">
+        <img src="{{ img_optimized('imgs/encodyn-main-header.webp')}}" alt="Encodyn digital solutions showcase featuring custom software development and web design services">
     </div>
     <div class="container large">
         <div class="hero-area-inner">
@@ -256,7 +256,7 @@ digital transformation, business growth, technology solutions, software engineer
                 <div class="works-wrapper">
                     <div class="work-box">
                         <div class="thumb">
-                                <img src="{{ asset('imgs/works/airq.webp')}}"
+                                <img src="{{ img_optimized('imgs/works/airq.webp')}}"
                                      alt="Air Q Contractors website design and Stripe integration project by Encodyn">
                         </div>
                         <div class="content">
@@ -269,7 +269,7 @@ digital transformation, business growth, technology solutions, software engineer
                     </div>
                     <div class="work-box">
                         <div class="thumb">
-                                <img src="{{ asset('imgs/works/consultoriomedico.webp')}}"
+                                <img src="{{ img_optimized('imgs/works/consultoriomedico.webp')}}"
                                      alt="Consultorio Medico Bellaire healthcare website with appointment scheduling integration">
                         </div>
                         <div class="content">
@@ -283,7 +283,7 @@ digital transformation, business growth, technology solutions, software engineer
                     </div>
                     <div class="work-box">
                         <div class="thumb">
-                                <img src="{{ asset('imgs/works/elitepharmacy.webp')}}"
+                                <img src="{{ img_optimized('imgs/works/elitepharmacy.webp')}}"
                                      alt="Elite Pharmacy responsive website design showcasing healthcare services">
                         </div>
                         <div class="content">
@@ -296,7 +296,7 @@ digital transformation, business growth, technology solutions, software engineer
                     </div>
                     <div class="work-box">
                         <div class="thumb">
-                                <img src="{{ asset('imgs/works/sanasana.webp')}}"
+                                <img src="{{ img_optimized('imgs/works/sanasana.webp')}}"
                                      alt="Sana Sana brand identity design project by Encodyn">
                         </div>
                         <div class="content">
@@ -362,11 +362,11 @@ digital transformation, business growth, technology solutions, software engineer
                 <div class="info-box">
                     <h3 class="rating">5</h3>
                     <div class="rating-icons">
-                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
-                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
-                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
-                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
-                        <img src="{{ asset('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
+                        <img src="{{ img_optimized('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
+                        <img src="{{ img_optimized('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
+                        <img src="{{ img_optimized('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
+                        <img src="{{ img_optimized('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
+                        <img src="{{ img_optimized('imgs/icon/star.webp')}}" alt="Five-star client satisfaction rating">
                     </div>
                     <p class="reviews">(5+ reviews)</p>
                     <p class="text pb-3">Empowering
@@ -386,7 +386,7 @@ digital transformation, business growth, technology solutions, software engineer
                                     <div class="content">
                                         <div class="content-top">
                                             <div class="icon">
-                                                <img class="quote-icon" src="{{ asset('imgs/icon/quote-6.webp')}}"
+                                                <img class="quote-icon" src="{{ img_optimized('imgs/icon/quote-6.webp')}}"
                                                      alt="Testimonial quote icon for client feedback">
                                             </div>
                                             <div class="text-wrapper">
@@ -414,7 +414,7 @@ digital transformation, business growth, technology solutions, software engineer
                                     <div class="content">
                                         <div class="content-top">
                                             <div class="icon">
-                                                <img class="quote-icon" src="{{ asset('imgs/icon/quote-6.webp')}}" alt="Quote Icon">
+                                                <img class="quote-icon" src="{{ img_optimized('imgs/icon/quote-6.webp')}}" alt="Quote Icon">
                                             </div>
                                             <div class="text-wrapper">
                                                 <p class="text">As a small family business, we trusted <span>Encodyn</span> to boost our online <span>presence</span> a year ago,
@@ -441,7 +441,7 @@ digital transformation, business growth, technology solutions, software engineer
                                     <div class="content">
                                         <div class="content-top">
                                             <div class="icon">
-                                                <img class="quote-icon" src="{{ asset('imgs/icon/quote-6.webp')}}" alt="Quote Icon">
+                                                <img class="quote-icon" src="{{ img_optimized('imgs/icon/quote-6.webp')}}" alt="Quote Icon">
                                             </div>
                                             <div class="text-wrapper">
                                                 <p class="text">As the owner of Los Vecinos Bakery I am completely <span>satisfied</span> with the <span>design and implementation</span> of our new website.

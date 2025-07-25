@@ -10,13 +10,13 @@ mobile applications, full-stack development, software engineering, enterprise so
     <meta property="og:description" content="Transform your business operations with custom software solutions that drive efficiency, productivity, and profitability.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:image" content="{{ asset('imgs/services/software-development-services.webp') }}">
+    <meta property="og:image" content="{{ img_optimized('imgs/services/software-development-services.webp') }}">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Custom Software Development Services | Encodyn">
     <meta name="twitter:description" content="Transform your business operations with custom software solutions that drive efficiency, productivity, and profitability.">
-    <meta name="twitter:image" content="{{ asset('imgs/services/software-development-services.webp') }}">
+    <meta name="twitter:image" content="{{ img_optimized('imgs/services/software-development-services.webp') }}">
 
     <!-- WhatsApp -->
     <meta property="og:site_name" content="Encodyn">
@@ -35,7 +35,7 @@ mobile applications, full-stack development, software engineering, enterprise so
 <section class="service-details-area">
     <div class="container">
         <div class="thumb-main">
-            <img src="{{ asset('imgs/services/software-development-services.webp')}}" class="has_fade_anim" data-delay="0.30"
+            <img src="{{ img_optimized('imgs/services/software-development-services.webp')}}" class="has_fade_anim" data-delay="0.30"
                  data-fade-offset="0"
                  alt="Custom software development services showcasing code integration and business applications">
             @include('components.social-media')

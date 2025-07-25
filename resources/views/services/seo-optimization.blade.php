@@ -9,13 +9,13 @@ Technical optimization, content strategy, and measurable results.')
     <meta property="og:description" content="Boost your online visibility with data-driven SEO strategies that increase rankings, drive qualified traffic, and deliver measurable returns.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:image" content="{{ asset('imgs/services/seo-optimization-services.webp') }}">
+    <meta property="og:image" content="{{ img_optimized('imgs/services/seo-optimization-services.webp') }}">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SEO Optimization Services | Encodyn">
     <meta name="twitter:description" content="Boost your online visibility with data-driven SEO strategies that increase rankings, drive qualified traffic, and deliver measurable returns.">
-    <meta name="twitter:image" content="{{ asset('imgs/services/seo-optimization-services.webp') }}">
+    <meta name="twitter:image" content="{{ img_optimized('imgs/services/seo-optimization-services.webp') }}">
 
     <!-- WhatsApp -->
     <meta property="og:site_name" content="Encodyn">
@@ -35,7 +35,7 @@ Technical optimization, content strategy, and measurable results.')
 <section class="service-details-area">
     <div class="container">
         <div class="thumb-main">
-            <img src="{{ asset('imgs/services/seo-optimization-services.webp')}}" class="has_fade_anim" data-delay="0.30"
+            <img src="{{ img_optimized('imgs/services/seo-optimization-services.webp')}}" class="has_fade_anim" data-delay="0.30"
                  data-fade-offset="0"
                  alt="SEO optimization services showing search rankings and analytics dashboard with performance metrics">
             @include('components.social-media')
@@ -120,12 +120,12 @@ Technical optimization, content strategy, and measurable results.')
             </div>
             <div class="section-content">
                 <div class="shape has_fade_anim">
-                    <img class="show-light" src="{{ asset('imgs/shape/img-s-84.webp')}}"
+                    <img class="show-light" src="{{ img_optimized('imgs/shape/img-s-84.webp')}}"
                          alt="Decorative geometric element enhancing the SEO services section">
                 </div>
                 <div class="content-last">
                     <div class="thumb has_fade_anim">
-                        <img class="main-image" src="{{ asset('imgs/services/seo-search-engine-optimization-services.webp')}}"
+                        <img class="main-image" src="{{ img_optimized('imgs/services/seo-search-engine-optimization-services.webp')}}"
                              alt="Search engine optimization strategy visualization with keyword targeting and organic traffic growth charts">
                     </div>
                     <div class="text-wrapper has_fade_anim">
@@ -154,7 +154,7 @@ Technical optimization, content strategy, and measurable results.')
         <div class="faq-area-inner section-spacing-top">
             <div class="section-content">
                 <div class="thumb">
-                    <img src="{{ asset('imgs/services/seo-analysis.webp')}}" class="has_fade_anim" data-fade-from="left"
+                    <img src="{{ img_optimized('imgs/services/seo-analysis.webp')}}" class="has_fade_anim" data-fade-from="left"
                          alt="SEO analysis and keyword research tools showing website performance optimization data">
                 </div>
                 <div class="content-last has_fade_anim">

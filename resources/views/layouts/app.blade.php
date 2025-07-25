@@ -13,7 +13,7 @@
     <!-- Meta tags and Open Graph -->
     @yield('meta_tags')
     <!-- Fav Icon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('imgs/favicon.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ img_optimized('imgs/favicon.png') }}">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -109,7 +109,7 @@
         <div class="header-area__inner">
             <div class="header__logo">
                 <a href="{{ route('home') }}">
-                    <img src="{{ asset('imgs/encodyn-logo-black.webp')}}" alt="image" style="width: 250px">
+                    <img src="{{ img_optimized('imgs/encodyn-logo-black.webp')}}" alt="image" style="width: 250px">
                 </a>
             </div>
             <div class="header__nav pos-center">
@@ -170,7 +170,7 @@
                     <div class="footer-area-inner section-spacing-top">
                         <div class="footer-widget-wrapper">
                             <div class="footer-logo">
-                                <a href="{{ route('home') }}"><img src="{{ asset('imgs/encodyn-logo-white.webp') }}" alt="site-logo" style="width: 230px"></a>
+                                <a href="{{ route('home') }}"><img src="{{ img_optimized('imgs/encodyn-logo-white.webp') }}" alt="site-logo" style="width: 230px"></a>
                             </div>
                         </div>
                         <div class="footer-widget-wrapper">

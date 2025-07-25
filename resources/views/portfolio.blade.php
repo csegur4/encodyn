@@ -10,14 +10,14 @@ branding case studies, business growth case studies, development portfolio, digi
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:title" content="Encodyn | Portfolio of Custom Software & Web Design Projects">
     <meta property="og:description" content="Explore Encodyn's portfolio of custom software development, responsive websites, and brand design projects that have driven measurable results for forward-thinking businesses.">
-    <meta property="og:image" content="{{ asset('imgs/encodyn-social-media.webp') }}">
+    <meta property="og:image" content="{{ img_optimized('imgs/encodyn-social-media.webp') }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ url()->current() }}">
     <meta property="twitter:title" content="Encodyn | Portfolio of Custom Software & Web Design Projects">
     <meta property="twitter:description" content="Explore Encodyn's portfolio of custom software development, responsive websites, and brand design projects that have driven measurable results for forward-thinking businesses.">
-    <meta property="twitter:image" content="{{ asset('imgs/encodyn-social-media.webp') }}">
+    <meta property="twitter:image" content="{{ img_optimized('imgs/encodyn-social-media.webp') }}">
 
     <!-- WhatsApp / SMS Preview -->
     <meta property="og:site_name" content="Encodyn">
@@ -46,7 +46,7 @@ branding case studies, business growth case studies, development portfolio, digi
                             and brand designs that solve real business problems and drive measurable growth for our clients.</p>
                     </div>
                     <div class="icon has_fade_anim">
-                        <img class="show-light" src="{{ asset('imgs/shape/img-s-82.webp')}}" alt="Decorative portfolio section divider">
+                        <img class="show-light" src="{{ img_optimized('imgs/shape/img-s-82.webp')}}" alt="Decorative portfolio section divider">
                     </div>
                 </div>
                 <div class="works-wrapper-box">
@@ -55,7 +55,7 @@ branding case studies, business growth case studies, development portfolio, digi
                             <a href="https://mycarwheel.com/" target="_blank" rel="noopener noreferrer">
                                 <div class="work-box">
                                     <div class="thumb">
-                                        <img src="{{ asset('imgs/works/mycarwheel.webp')}}"
+                                        <img src="{{ img_optimized('imgs/works/mycarwheel.webp')}}"
                                              alt="My Car Wheel responsive website design showcasing retail services">
                                     </div>
                                     <div class="content">
@@ -71,7 +71,7 @@ branding case studies, business growth case studies, development portfolio, digi
                             <a href="https://losvecinosbakery.com/" target="_blank" rel="noopener noreferrer">
                                 <div class="work-box">
                                     <div class="thumb">
-                                        <img src="{{ asset('imgs/works/los-vecinos-bakery.webp')}}"
+                                        <img src="{{ img_optimized('imgs/works/los-vecinos-bakery.webp')}}"
                                              alt="My Car Wheel responsive website design showcasing retail services">
                                     </div>
                                     <div class="content">
@@ -87,7 +87,7 @@ branding case studies, business growth case studies, development portfolio, digi
                             <a href="https://airqcontractors.com/" target="_blank" rel="noopener noreferrer">
                                 <div class="work-box">
                                     <div class="thumb">
-                                        <img src="{{ asset('imgs/works/airq.webp')}}"
+                                        <img src="{{ img_optimized('imgs/works/airq.webp')}}"
                                              alt="Air Q Contractors website design and Stripe integration project by Encodyn">
                                     </div>
                                     <div class="content">
@@ -103,7 +103,7 @@ branding case studies, business growth case studies, development portfolio, digi
                             <a href="https://www.consultoriomedicobellaire.com/" target="_blank" rel="noopener noreferrer">
                                 <div class="work-box">
                                     <div class="thumb">
-                                        <img src="{{ asset('imgs/works/consultoriomedico.webp')}}"
+                                        <img src="{{ img_optimized('imgs/works/consultoriomedico.webp')}}"
                                              alt="Consultorio Medico Bellaire healthcare website with appointment scheduling integration">
                                     </div>
                                     <div class="content">
@@ -119,7 +119,7 @@ branding case studies, business growth case studies, development portfolio, digi
                             <a class="large" href="https://www.elitepharmacyinc.com/" target="_blank" rel="noopener noreferrer">
                                 <div class="work-box">
                                     <div class="thumb">
-                                        <img src="{{ asset('imgs/works/elitepharmacy.webp')}}"
+                                        <img src="{{ img_optimized('imgs/works/elitepharmacy.webp')}}"
                                              alt="Elite Pharmacy responsive website design showcasing healthcare services">
                                     </div>
                                     <div class="content">
@@ -135,7 +135,7 @@ branding case studies, business growth case studies, development portfolio, digi
                             <a href="#">
                                 <div class="work-box">
                                     <div class="thumb">
-                                        <img src="{{ asset('imgs/works/sanasana.webp')}}"
+                                        <img src="{{ img_optimized('imgs/works/sanasana.webp')}}"
                                              alt="Sana Sana brand identity design project by Encodyn">
                                     </div>
                                     <div class="content">

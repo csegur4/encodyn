@@ -3,7 +3,7 @@
     <div class="container">
         <div class="contact-area-inner section-spacing">
             <div class="shape-1">
-                <img src="{{ asset('imgs/shape/img-s-73.webp')}}" alt="shape">
+                <img src="{{ img_optimized('imgs/shape/img-s-73.webp')}}" alt="shape">
             </div>
             <div class="section-content">
                 <div class="section-title-wrapper">
@@ -14,7 +14,7 @@
                 <div class="btn-wrapper has_fade_anim">
                     <a href="{{ route('contact') }}" class="wc-btn wc-btn-underline btn-text-flip"> <span
                             data-text="Let's discuss your project">Let's discuss your project</span>
-                        <img src="{{ asset('imgs/icon/arrow-right-half-light.webp')}}" alt="icon image"></a>
+                        <img src="{{ img_optimized('imgs/icon/arrow-right-half-light.webp')}}" alt="icon image"></a>
                 </div>
             </div>
         </div>

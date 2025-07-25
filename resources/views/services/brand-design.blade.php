@@ -9,13 +9,13 @@ Our brand design services create visual systems that build recognition and custo
     <meta property="og:description" content="Craft a distinctive brand identity that creates recognition, builds trust, and establishes emotional connections with your customers.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:image" content="{{ asset('imgs/services/brand-design-services.webp') }}">
+    <meta property="og:image" content="{{ img_optimized('imgs/services/brand-design-services.webp') }}">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Brand Design Services | Encodyn">
     <meta name="twitter:description" content="Craft a distinctive brand identity that creates recognition, builds trust, and establishes emotional connections with your customers.">
-    <meta name="twitter:image" content="{{ asset('imgs/services/brand-design-services.webp') }}">
+    <meta name="twitter:image" content="{{ img_optimized('imgs/services/brand-design-services.webp') }}">
 
     <!-- WhatsApp -->
     <meta property="og:site_name" content="Encodyn">
@@ -36,7 +36,7 @@ Our brand design services create visual systems that build recognition and custo
 <section class="service-details-area">
     <div class="container">
         <div class="thumb-main">
-            <img src="{{ asset('imgs/services/brand-design-services.webp')}}" class="has_fade_anim" data-delay="0.30"
+            <img src="{{ img_optimized('imgs/services/brand-design-services.webp')}}" class="has_fade_anim" data-delay="0.30"
                  data-fade-offset="0"
                  alt="Strategic brand design process showcasing visual identity elements and creative brand development">
             @include('components.social-media')
@@ -117,12 +117,12 @@ Our brand design services create visual systems that build recognition and custo
             </div>
             <div class="section-content">
                 <div class="shape has_fade_anim">
-                    <img class="show-light" src="{{ asset('imgs/shape/img-s-84.webp')}}"
+                    <img class="show-light" src="{{ img_optimized('imgs/shape/img-s-84.webp')}}"
                          alt="Decorative design element enhancing the brand design services section">
                 </div>
                 <div class="content-last">
                     <div class="thumb has_fade_anim">
-                        <img class="main-image" src="{{ asset('imgs/services/brand-design-keywords.webp')}}"
+                        <img class="main-image" src="{{ img_optimized('imgs/services/brand-design-keywords.webp')}}"
                              alt="Brand identity development visualization with typography, color systems, and logo design elements">
                     </div>
                     <div class="text-wrapper has_fade_anim">
@@ -150,7 +150,7 @@ Our brand design services create visual systems that build recognition and custo
         <div class="faq-area-inner section-spacing-top">
             <div class="section-content">
                 <div class="thumb">
-                    <img src="{{ asset('imgs/services/table-work-logo-design.webp')}}" class="has_fade_anim" data-fade-from="left"
+                    <img src="{{ img_optimized('imgs/services/table-work-logo-design.webp')}}" class="has_fade_anim" data-fade-from="left"
                          alt="Designer's workspace showing brand identity development process with logo sketches and brand guidelines">
                 </div>
                 <div class="content-last has_fade_anim">
