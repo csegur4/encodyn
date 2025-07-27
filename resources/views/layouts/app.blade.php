@@ -96,6 +96,8 @@
                 <div class="offcanvas-3__social-links">
                     <a href="https://www.linkedin.com/company/encodyn" aria-label="Follow Encodyn on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="https://www.instagram.com/encodyn" aria-label="Follow Encodyn on Instagram"><i class="fa-brands fa-instagram" ></i></a>
+                    <a href="https://www.youtube.com/@encodyn" aria-label="Follow Encodyn on Youtube"><i class="fa-brands fa-youtube" ></i></a>
+                    <a href="https://x.com/encodyn" aria-label="Follow Encodyn on X"><i class="fa-brands fa-twitter" ></i></a>
                 </div>
             </div>
         </div>
@@ -205,6 +207,15 @@
                                     <a href="https://www.linkedin.com/company/encodyn" aria-label="Follow Encodyn on LinkedIn">
                                         <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
                                     </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/@encodyn" aria-label="Follow Encodyn on Youtube">
+                                        <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://x.com/encodyn" aria-label="Follow Encodyn on X">
+                                        <i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
                                 </li>
                             </ul>
                         </div>
